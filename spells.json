@@ -3,9 +3,13 @@
     "classes": {
       "Healer": "5"
     },
-    "e": "Target is <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a> for 60 seconds. Ignores armor",
-    "i": "\"The strength of aether is mine to evoke\" x3",
-    "if": "\"J'invoque la force sybilline de l'éther\" x3",
+    "e": {
+      "en": "Target is <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a> for 60 seconds. Ignores armor"
+      },
+    "i": {
+      "en":"\"The strength of aether is mine to evoke\" x3",
+      "fr": "\"J'invoque la force sybilline de l'éther\" x3"
+    },
     "keywords": "abeyance ball green subdual healer",
     "m": "Green Magic Ball",
     "name": "Abeyance",
@@ -21,10 +25,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"I enchant thee with this blessing\" x3",
-    "if": "\"Je t'enchante d'une bénédiction\" x3",
+    "i": {
+      "en":"\"I enchant thee with this blessing\" x3",
+      "fr": "\"Je t'enchante d'une bénédiction\" x3"
+    },
     "m": "White Strip",
-    "e": "Bearer becomes <a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting. Does not count towards a players Enchantment limit.",
+    "e": {
+      "en": "Bearer becomes <a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting. Does not count towards a players Enchantment limit."
+      },
     "l": "May not be worn with any other Enchantments from the Protection School unless the other Enchantment is (ex)."
   },
   "adaptiveprotection": {
@@ -37,10 +45,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"I enchant thee with this protection\" x3",
-    "if": "\"Je t'enchante avec cette protection\" x3",
+    "i": {
+      "en":"\"I enchant thee with this protection\" x3",
+      "fr": "\"Je t'enchante avec cette protection\" x3"
+    },
     "m": "White Strip",
-    "e": "Bearer becomes <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting."
+    "e": {
+      "en": "Bearer becomes <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to one of the following Schools: Death, Flame, Subdual, Command, Sorcery. School is chosen at the time of casting."
+      }
   },
   "adrenaline": {
     "name": "Adrenaline",
@@ -51,9 +63,13 @@
     "t": "Verbal",
     "s": "Spirit",
     "r": "Self",
-    "i": "\"Adrenaline\"",
-    "if": "\"Adrénaline\"",
-    "e": "Player heals a wound.",
+    "i": {
+      "en":"\"Adrenaline\"",
+      "fr": "\"Adrénaline\""
+    },
+    "e": {
+      "en": "Player heals a wound."
+      },
     "l": "<a href=\"/spells/definitions#killtrigger\" data-ajax=\"false\">Kill Trigger</a>."
   },
   "agoraphobia": {
@@ -65,9 +81,13 @@
     "t": "Verbal",
     "s": "Command",
     "r": "20'",
-    "i": "\"I command thee to be alone\" x3",
-    "if": "\"Je t'ordonne de rester tout seul\" x3",
-    "e": "Target must remain at least 20' away from all other living players unless forced there by another Magic or Ability. Lasts 30 seconds."
+    "i": {
+      "en":"\"I command thee to be alone\" x3",
+      "fr": "\"Je t'ordonne de rester tout seul\" x3"
+    },
+    "e": {
+      "en": "Target must remain at least 20' away from all other living players unless forced there by another Magic or Ability. Lasts 30 seconds."
+      }
   },
   "amplification": {
     "name": "Amplification",
@@ -78,10 +98,14 @@
     "t": "Enchantment",
     "s": "Sorcery",
     "r": "Touch",
-    "i": "\"My power amplifies thy voice\" x3",
-    "if": "\"Ma puissance amplifie ta voix\" x3",
+    "i": {
+      "en":"\"My power amplifies thy voice\" x3",
+      "fr": "\"Ma puissance amplifie ta voix\" x3"
+    },
     "m": "Yellow Strip",
-    "e": "Bearer gains <a href=\"/spells/e#extension\" data-ajax=\"false\">Extension</a> 1/refresh Charge x3. Other sources of Extension may not be utilized while Amplification is worn.",
+    "e": {
+      "en": "Bearer gains <a href=\"/spells/e#extension\" data-ajax=\"false\">Extension</a> 1/refresh Charge x3. Other sources of Extension may not be utilized while Amplification is worn."
+      },
     "n": "Does not use up any purchased instances of Extension."
   },
   "ambulant": {
@@ -95,9 +119,13 @@
     },
     "t": "Meta-Magic",
     "s": "Neutral",
-    "i": "\"Ambulant\"",
-    "if": "\"Mobile\"",
-    "e": "An incantation may be said while moving. May be cast while moving.",
+    "i": {
+      "en":"\"Ambulant\"",
+      "fr": "\"Mobile\""
+    },
+    "e": {
+      "en": "An incantation may be said while moving. May be cast while moving."
+      },
     "l": "May not be used on the Charge incantation."
   },
   "ancestralarmor": {
@@ -110,10 +138,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "<br>\"May this armor protect thee from all forms of harm.<br>May the flames of the fire not burn you.<br>May the bolts from the heavens not strike you.<br>May the arrows of your enemies not pierce you.<br>May this armor protect thee from all forms of harm\"",
-    "if": "<br>\"Que cette armure te protège de toute forme de mal.<br>Que les flammes du feu ne te brûlent pas.<br>Que les éclairs du ciel ne te frappent pas.<br>Que les flèches de tes ennemis ne te transpercent pas.<br>Que cette armure te protège de toute forme de mal\"",
+    "i": {
+      "en":"<br>\"May this armor protect thee from all forms of harm.<br>May the flames of the fire not burn you.<br>May the bolts from the heavens not strike you.<br>May the arrows of your enemies not pierce you.<br>May this armor protect thee from all forms of harm\"",
+      "fr": "<br>\"Que cette armure te protège de toute forme de mal.<br>Que les flammes du feu ne te brûlent pas.<br>Que les éclairs du ciel ne te frappent pas.<br>Que les flèches de tes ennemis ne te transpercent pas.<br>Que cette armure te protège de toute forme de mal\""
+    },
     "m": "White Strip",
-    "e": "The effects of a <a href=\"/spells/balls\" data-ajax=\"false\">Magic Ball</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectile</a> weapon, or melee weapon which just struck armor worn by the player are ignored, even if the object would not otherwise affect the armor. The armor loses one point of value in the location struck. This effect will not trigger if the armor has no points left in the location struck. Ancestral Armor is not expended after use and will continue to provide protection until removed with Dispel Magic or similar magic or abilities.",
+    "e": {
+      "en": "The effects of a <a href=\"/spells/balls\" data-ajax=\"false\">Magic Ball</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">projectile</a> weapon, or melee weapon which just struck armor worn by the player are ignored, even if the object would not otherwise affect the armor. The armor loses one point of value in the location struck. This effect will not trigger if the armor has no points left in the location struck. Ancestral Armor is not expended after use and will continue to provide protection until removed with Dispel Magic or similar magic or abilities."
+      },
     "n": "Engulfing Effects that do not strike the bearer's armor and abilities that ignore armor entirely do not trigger Ancestral Armor. <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Phasing</a> equipment interacts with armor worn by the bearer as though Ancestral Armor was not present."
   },
   "apex": {
@@ -124,7 +156,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> 1/Life (ex) and <a href=\"/spells/s#sleightofmind\" data-ajax=\"false\">Sleight of Mind</a> (Self) 1/Life (ex)",
+    "e": {
+      "en": "Gain <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> 1/Life (ex) and <a href=\"/spells/s#sleightofmind\" data-ajax=\"false\">Sleight of Mind</a> (Self) 1/Life (ex)"
+      },
     "l": "Lose all instances of <a href=\"/spells/e#evolution\" data-ajax=\"false\">Evolution</a>, <a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a>, and <a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a>"
   },
   "artificer": {
@@ -135,7 +169,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May wield a <a href=\"/shields/\" data-ajax=\"false\">Small Shield</a>. Gain <a href=\"/spells/g#greatermend\" data-ajax=\"false\">Greater Mend</a> 2/Refresh Charge x10 (ex). <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> becomes 2/Life Charge x3 (ex).<br>Casting Mend on Weapons or Shields does not consume a use of Mend.",
+    "e": {
+      "en": "May wield a <a href=\"/shields/\" data-ajax=\"false\">Small Shield</a>. Gain <a href=\"/spells/g#greatermend\" data-ajax=\"false\">Greater Mend</a> 2/Refresh Charge x10 (ex). <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> becomes 2/Life Charge x3 (ex).<br>Casting Mend on Weapons or Shields does not consume a use of Mend."
+      },
     "l": "Rather than the normal amount of Specialty Arrows for an Archer, gain:<ul><li><a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a> 3 Arrows / Unlimited (ex)</li><li><a href=\"/spells/p#phasearrow\" data-ajax=\"false\">Phase Arrow</a> 1 Arrow / Unlimited (ex)</li><li><a href=\"/spells/s#suppressionarrow\" data-ajax=\"false\">Suppression Arrow</a> 1 Arrow / Unlimited (ex)</li></ul>Look the Part becomes a fourth Pinning Arrow.",
     "n": "Player must still have a use of <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> remaining to cast on weapons or shields."
   },
@@ -148,9 +184,13 @@
     "t": "Verbal",
     "s": "Death",
     "r": "50'",
-    "i": "\"Assassinate\"",
-    "if": "\"Assassiné\"",
-    "e": "The target is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>",
+    "i": {
+      "en":"\"Assassinate\"",
+      "fr": "\"Assassiné\""
+    },
+    "e": {
+      "en": "The target is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>"
+      },
     "l": "May only be used immediately upon killing an enemy.",
     "n": "Assassinate targets the killed enemy and does not require verbal targeting."
   },
@@ -164,9 +204,13 @@
     "t": "Verbal",
     "s": "Command",
     "r": "20'",
-    "i": "\"I command thee to retreat into the aether\" x 3",
-    "if": "\"Je t'ordonne un repliement tactique dans l'éther\" x3",
-    "e": "Target player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> for 30 seconds.",
+    "i": {
+      "en":"\"I command thee to retreat into the aether\" x 3",
+      "fr": "\"Je t'ordonne un repliement tactique dans l'éther\" x3"
+    },
+    "e": {
+      "en": "Target player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> for 30 seconds."
+      },
     "n": "If cast on self, the caster may end this <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> state at any time by using the exit incantation for Insubstantial."
   },
   "attuned": {
@@ -178,10 +222,14 @@
     "t": "Enchantment",
     "s": "Sorcery",
     "r": "Other",
-    "i": "\"I enchant thee with attune\" x3",
-    "if": "\"J'harmonise tes enchantements\" x3",
+    "i": {
+      "en":"\"I enchant thee with attune\" x3",
+      "fr": "\"J'harmonise tes enchantements\" x3"
+    },
     "m": "Yellow strip",
-    "e": "May wear an additional Enchantment. Attuned does not count towards the bearer's Enchantment limit",
+    "e": {
+      "en": "May wear an additional Enchantment. Attuned does not count towards the bearer's Enchantment limit"
+      },
     "l": "This ability may not be used in conjunction with any other similar ability or magic",
     "n": "If Attuned is removed, the bearer chooses which (m) Enchantments to lose to meet their new Enchantment limit, if necessary"
   },
@@ -193,7 +241,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "All the casters Enchantments of level 4 and below are now range Self instead of their previous range. Does not apply to Golem"
+    "e": {
+      "en": "All the casters Enchantments of level 4 and below are now range Self instead of their previous range. Does not apply to Golem."
+      }
   },
   "awe": {
     "name": "Awe",
@@ -205,9 +255,13 @@
     "t": "Verbal",
     "s": "Command",
     "r": "20'",
-    "i": "\"I command thee awed\" x3",
-    "if": "\"Je t'ordonne saisi\" x3",
-    "e": "Target may not attack or cast Magical abilities at the caster or their carried equipment. Target must remain at least 20' away from the caster unless forced there by another ability. Lasts 30 seconds.",
+    "i": {
+      "en":"\"I command thee awed\" x3",
+      "fr": "\"Je t'ordonne saisi\" x3"
+    },
+    "e": {
+      "en": "Target may not attack or cast Magical abilities at the caster or their carried equipment. Target must remain at least 20' away from the caster unless forced there by another ability. Lasts 30 seconds."
+      },
     "n": "If the caster attacks the target, begins casting another Magical abilities at the target or their carried equipment, or dies, this ability's effect is negated."
   },
   "banish": {
@@ -221,9 +275,13 @@
     "t": "Verbal",
     "s": "Spirit",
     "r": "20'",
-    "i": "\"The Spirits banish thee from this place\" x3",
-    "if": "\"Les esprits te banissent de ce lieu\" x3",
-    "e": "Target <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> player must return to their base where their Insubstantial State immediately ends",
+    "i": {
+      "en":"\"The Spirits banish thee from this place\" x3",
+      "fr": "\"Les esprits te bannissent de ce lieu\" x3"
+    },
+    "e": {
+      "en": "Target <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> player must return to their base where their Insubstantial State immediately ends"
+      },
     "n": "The target's <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> State is replaced with a new insubstantial state from Banish. If the Insubstantial State is ended before reaching the base, the rest of the effect is ended as well. If Banish is cast on self, the caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial."
   },
   "barkskin": {
@@ -235,10 +293,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"I enchant thee with barkskin\" x3",
-    "if": "\"Je t'enchante de peau d'écorce\" x3",
+    "i": {
+      "en":"\"I enchant thee with barkskin\" x3",
+      "fr": "\"Je t'enchante de peau d'écorce\" x3"
+    },
     "m": "White strip",
-    "e": "Bearer gains one point of Magic Armor"
+    "e": {
+      "en": "Bearer gains one point of Magic Armor"
+      }
   },
   "battlefieldtriage": {
     "name": "Battlefield Triage",
@@ -249,10 +311,15 @@
     "t": "Enchantment",
     "s": "Spirit",
     "r": "Touch",
-    "i": "\"Be a bastion of healing\" x3",
-    "if": "\"Sois une citadelle de soins“ x3",
+    "i": {
+      "en":"\"Be a bastion of healing\" x3",
+      "fr": "\"Sois une citadelle de soins“ x3"
+    },
     "m": "3 Yellow strips",
-    "e": "Bearer may cast Heal (m) by incanting \"<i>&lt;Player&gt; thou art made whole</i>\" (fr: \"<i>&lt;Joueur&gt; tu es rétabli</i>\") and removing an enchantment strip. Enchantment is removed when the last strip is removed."
+    "e": {
+      "en": "Bearer may cast Heal (m) by incanting \"<i>&lt;Player&gt; thou art made whole</i>\"  and removing an enchantment strip. Enchantment is removed when the last strip is removed.",
+      "fr": "Bearer may cast Heal (m) by incanting \"<i>&lt;Joueur&gt; tu es rétabli</i>\" and removing an enchantment strip. Enchantment is removed when the last strip is removed."
+      }
   },
   "battlemage": {
     "name": "Battlemage",
@@ -262,7 +329,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Use of Ambulant becomes unlimited",
+    "e": {
+      "en": "Use of Ambulant becomes unlimited"
+      },
     "l": "May not purchase Enchantments or Magic Balls"
   },
   "bearstrength": {
@@ -275,10 +344,14 @@
     "t": "Enchantment",
     "s": "Sorcery",
     "r": "Other",
-    "i": "\"I enchant thee with the strength of the bear\" x3",
-    "if": "\"I enchant thee with the strength of the bear” x3 \" x3",
+    "i": {
+      "en":"\"I enchant thee with the strength of the bear\" x3",
+      "fr": "\"I enchant thee with the strength of the bear” x3 \" x3"
+    },
     "m": "Red Strip",
-    "e": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>"
+    "e": {
+      "en": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>"
+      }
   },
   "berserk": {
     "name": "Berserk",
@@ -290,7 +363,9 @@
     "s": "Sorcery",
     "r": "Self",
     "m": "Red Strip",
-    "e": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>"
+    "e": {
+      "en": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>"
+      }
   },
   "berserker": {
     "name": "Berserker",
@@ -300,7 +375,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/m#momentum\" data-ajax=\"false\">Momentum</a> Unlimited (ex) (Ambulant).",
+    "e": {
+      "en": "Gain <a href=\"/spells/m#momentum\" data-ajax=\"false\">Momentum</a> Unlimited (ex) (Ambulant)."
+      },
     "l": "May not wear Armor, and loses all instances of <a href=\"/spells/b#bloodandthunder\" data-ajax=\"false\">Blood and Thunder</a>"
   },
   "blessedaura": {
@@ -312,10 +389,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"I enchant thy person, arms, and armor\" x3",
-    "if": "\"Je t'enchante corps et âme, armes et armures\" x3",
+    "i": {
+      "en":"\"I enchant thy person, arms, and armor\" x3",
+      "fr": "\"Je t'enchante corps et âme, armes et armures\" x3"
+    },
     "m": "White Strip",
-    "e": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to all effects from the next source which would inflict a Wound, Death, State, or negatively affect them or their carried or worn equipment. Does not trigger against effects cast by the player"
+    "e": {
+      "en": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to all effects from the next source which would inflict a Wound, Death, State, or negatively affect them or their carried or worn equipment. Does not trigger against effects cast by the player"
+      }
   },
   "blessingagainstharm": {
     "name": "Blessing Against Harm",
@@ -326,10 +407,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"I enchant thee against all harm\" x3",
-    "if": "\"Je t'enchante contre toute forme de mal\" x3",
+    "i": {
+      "en":"\"I enchant thee against all harm\" x3",
+      "fr": "\"Je t'enchante contre toute forme de mal\" x3"
+    },
     "m": "White Strip",
-    "e": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to all effects from the next source which would inflict a Wound, Death, State, or other negative effect. Does not trigger against effects cast by the player"
+    "e": {
+      "en": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to all effects from the next source which would inflict a Wound, Death, State, or other negative effect. Does not trigger against effects cast by the player"
+      }
   },
   "blessingagainstwounds": {
     "name": "Blessing Against Wounds",
@@ -341,10 +426,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"I enchant thee against wounds\" x3",
-    "if": "\"Je t'enchante contre les blessures\" x3",
+    "i": {
+      "en":"\"I enchant thee against wounds\" x3",
+      "fr": "\"Je t'enchante contre les blessures\" x3"
+    },
     "m": "White Strip",
-    "e": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to Wounds. Does not count towards a players Enchantment limit",
+    "e": {
+      "en": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to Wounds. Does not count towards a players Enchantment limit"
+      },
     "l": "May not be worn with any other Enchantments from the Protection School unless the other Enchantment is (ex)"
   },
   "blink": {
@@ -356,9 +445,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Self",
-    "i": "\"I vanish from sight\"",
-    "if": "\"je deviens vapeur\"",
-    "e": "Player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. While Insubstantial in this way, player can move as they wish as long as they remain within 50' from their starting point",
+    "i": {
+      "en":"\"I vanish from sight\"",
+      "fr": "\"je deviens vapeur\""
+    },
+    "e": {
+      "en": "Player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. While Insubstantial in this way, player can move as they wish as long as they remain within 50' from their starting point"
+      },
     "l": "Caster may not end State within 10' of a living enemy",
     "n": "If the <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> State is ended, the rest of the effect is ended as well. Caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial"
   },
@@ -371,9 +464,13 @@
     "t": "Verbal",
     "s": "Spirit",
     "r": "Self",
-    "i": "\"Blood and Thunder!\"",
-    "if": "\"Sang et Tonnerre\"",
-    "e": "Player gains <a href=\"/spells/b#blessingagainstwounds\" data-ajax=\"false\">Blessing Against Wounds</a>",
+    "i": {
+      "en":"\"Blood and Thunder!\"",
+      "fr": "\"Sang et Tonnerre\""
+    },
+    "e": {
+      "en": "Player gains <a href=\"/spells/b#blessingagainstwounds\" data-ajax=\"false\">Blessing Against Wounds</a>"
+      },
     "l": "<a href=\"/spells/definitions#killtrigger\" data-ajax=\"false\">Kill Trigger</a>",
     "n": "Player must still wear a white strip to denote Blessing Against Wounds"
   },
@@ -387,9 +484,13 @@
     "t": "Verbal",
     "s": "Command",
     "r": "20'",
-    "i": "\"I command thee suppressed\"",
-    "if": "\"Je t'ordonne de te taire\"",
-    "e": "Target player is suppressed for 10 seconds"
+    "i": {
+      "en":"\"I command thee suppressed\"",
+      "fr": "\"Je t'ordonne de te taire\""
+    },
+    "e": {
+      "en": "Target player is suppressed for 10 seconds"
+      }
   },
   "brutalstrike": {
     "name": "Brutal Strike",
@@ -401,9 +502,13 @@
     "t": "Verbal",
     "s": "Death",
     "r": "Unlimited",
-    "i": "\"And stay down!\"",
-    "if": "\"Reste à terre\"",
-    "e": "Victim is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Victim is also <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds",
+    "i": {
+      "en":"\"And stay down!\"",
+      "fr": "\"Reste à terre\""
+    },
+    "e": {
+      "en": "Victim is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Victim is also <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds"
+      },
     "l": "<a href=\"/spells/definitions#woundtrigger\" data-ajax=\"false\">Wound Trigger</a>",
     "n": "Brutal Strike targets the wounded or dead player and does not require verbal targeting"
   },
@@ -416,9 +521,13 @@
     "t": "Verbal",
     "s": "Flame",
     "r": "20'",
-    "i": "\"I call lightning's flame to strike thee\" x3",
-    "if": "\"Que les feux du ciel te foudroient\" x3",
-    "e": "Target player dies"
+    "i": {
+      "en":"\"I call lightning's flame to strike thee\" x3",
+      "fr": "\"Que les feux du ciel te foudroient\" x3"
+    },
+    "e": {
+      "en": "Target player dies"
+      }
   },
   "circleofprotection": {
     "name": "Circle of Protection",
@@ -429,9 +538,13 @@
     "t": "Verbal",
     "s": "Protection",
     "r": "Self",
-    "i": "\"Circle of Protection\" x3",
-    "if": "\"Cercle de protection\" x3",
-    "e": "The caster and up to five willing players within Touch range of the caster immediately have all States and Ongoing Effects removed and then become Insubstantial.<br>All targets:<ul><li>May not move from their starting location, and are unaffected by abilities that allow or require the player to move</li><li>May use abilities on players and their carried equipment who became Insubstantial due to the same casting of Circle of Protection as though they were not Insubstantial</li><li>May end this Insubstantial State at any time by using the exit incantation for Insubstantial</li></ul>The caster may end Circle of Protection for all targets at any time by using the exit incantation for Insubstantial. If the Insubstantial State is ended for a target, the Ongoing Effects of Circle of Protection no longer apply to that player",
+    "i": {
+      "en":"\"Circle of Protection\" x3",
+      "fr": "\"Cercle de protection\" x3"
+    },
+    "e": {
+      "en": "The caster and up to five willing players within Touch range of the caster immediately have all States and Ongoing Effects removed and then become Insubstantial.<br>All targets:<ul><li>May not move from their starting location, and are unaffected by abilities that allow or require the player to move</li><li>May use abilities on players and their carried equipment who became Insubstantial due to the same casting of Circle of Protection as though they were not Insubstantial</li><li>May end this Insubstantial State at any time by using the exit incantation for Insubstantial</li></ul>The caster may end Circle of Protection for all targets at any time by using the exit incantation for Insubstantial. If the Insubstantial State is ended for a target, the Ongoing Effects of Circle of Protection no longer apply to that player"
+      },
     "n": "If a player is prevented from becoming <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>, they are unaffected by Circle of Protection"
   },
   "combatcaster": {
@@ -442,7 +555,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Does not require an empty hand to cast Magic."
+    "e": {
+      "en": "Does not require an empty hand to cast Magic."
+      }
   },
   "confidence": {
     "name": "Confidence",
@@ -453,9 +568,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Other",
-    "i": "\"My power grants thee confidence\"",
-    "if": "\"Ma puissance te redonne confiance\"",
-    "e": "Target player may instantly Charge a single Magic or Ability.",
+    "i": {
+      "en":"\"My power grants thee confidence\"",
+      "fr": "\"Ma puissance te redonne confiance\""
+    },
+    "e": {
+      "en": "Target player may instantly Charge a single Magic or Ability."
+      },
     "l": "May not be used within 20' of a living enemy."
   },
   "contagion": {
@@ -467,10 +586,14 @@
     "t": "Enchantment",
     "s": "Death",
     "r": "Other",
-    "i": "\"May thou bear this plague to all\" x3",
-    "if": "\"Porte ce fléau à tous\" x3",
+    "i": {
+      "en":"\"May thou bear this plague to all\" x3",
+      "fr": "\"Porte ce fléau à tous\" x3"
+    },
     "m": "Red Strip",
-    "e": "All melee weapons wielded by player are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>. Bearer is <a href=\"/states/#Fragile\" data-ajax=\"false\">Fragile</a>"
+    "e": {
+      "en": "All melee weapons wielded by player are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>. Bearer is <a href=\"/states/#Fragile\" data-ajax=\"false\">Fragile</a>"
+      }
   },
   "corrosivemist": {
     "name": "Corrosive Mist",
@@ -481,10 +604,15 @@
     "t": "Enchantment",
     "s": "Death",
     "r": "Touch",
-    "i": "\"The mists of corrosion surround thee\" x3",
-    "if": "\"Les miasmes de la corrosion t'enveloppent\" x3",
+    "i": {
+      "en":"\"The mists of corrosion surround thee\" x3",
+      "fr": "\"Les miasmes de la corrosion t'enveloppent\" x3"
+    },
     "m": "Three Red Strips",
-    "e": "Bearer may cast Destroy Armor (m) by incanting \"<i>&lt;Player&gt; the mists of corrosion destroy your &lt:armor location&gt: armor</i>\" (fr: \"<i>&lt;Joueur&gt; les miasmes de la corrosion détruistent ta &lt:section d'armure&gt:</i>\"). Bearer must remove a strip after each use of Destroy Armor. Enchantment is removed when the last strip is removed."
+    "e": {
+      "en": "Bearer may cast Destroy Armor (m) by incanting \"<i>&lt;Player&gt; the mists of corrosion destroy your &lt:armor location&gt: armor</i>\" . Bearer must remove a strip after each use of Destroy Armor. Enchantment is removed when the last strip is removed.",
+      "fr": "Bearer may cast Destroy Armor (m) by incanting \"<i>&lt;Joueur&gt; les miasmes de la corrosion détruistent ta &lt:section d'armure&gt:</i>\". Bearer must remove a strip after each use of Destroy Armor. Enchantment is removed when the last strip is removed."
+      }
   },
   "corruptor": {
     "name": "Corruptor",
@@ -494,7 +622,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/v#voidtouched\" data-ajax=\"false\">Void Touched</a> (Self) 2/Refresh (m). All uses of <a href=\"/spells/t#terror\" data-ajax=\"false\">Terror</a> become 1/Life Charge x10 (m).",
+    "e": {
+      "en": "Gain <a href=\"/spells/v#voidtouched\" data-ajax=\"false\">Void Touched</a> (Self) 2/Refresh (m). All uses of <a href=\"/spells/t#terror\" data-ajax=\"false\">Terror</a> become 1/Life Charge x10 (m)."
+      },
     "l": "May not wield Great Weapons or Javelins and loses all instances of <a href=\"/spells/f#flameblade\" data-ajax=\"false\">Flame Blade</a>"
   },
   "coupdegrace": {
@@ -506,9 +636,13 @@
     "t": "Verbal",
     "s": "Death",
     "r": "20'",
-    "i": "\"Death shall come for thee\" x3",
-    "if": "\"Ta mort s'approche vite\" x3",
-    "e": "Target player dies",
+    "i": {
+      "en":"\"Death shall come for thee\" x3",
+      "fr": "\"Ta mort s'approche vite\" x3"
+    },
+    "e": {
+      "en": "Target player dies"
+      },
     "l": "Target must be Wounded when the caster begins the Incantation",
     "n": "Even if the target has no Wounds by the end of the Incantation they still die"
   },
@@ -520,7 +654,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Equipment costs are doubled. Each Verbal purchased gives double the uses. Example: 1/Life Charge x3 becomes 2/life Charge x3, 2/life becomes 4/life, 1/Refresh becomes 2/Refresh"
+    "e": {
+      "en": "Equipment costs are doubled. Each Verbal purchased gives double the uses. Example: 1/Life Charge x3 becomes 2/life Charge x3, 2/life becomes 4/life, 1/Refresh becomes 2/Refresh"
+      }
   },
   "destroyarmor": {
     "name": "Destroy Armor",
@@ -531,9 +667,13 @@
     "t": "Verbal",
     "s": "Death",
     "r": "20'",
-    "i": "\"Death destroys thy [hit location] armor\" x3",
-    "if": "\"La mort mange l'armure de ton [membre à viser]\" x3",
-    "e": "Armor on target hit location is subjected to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>",
+    "i": {
+      "en":"\"Death destroys thy [hit location] armor\" x3",
+      "fr": "\"La mort mange l'armure de ton [membre à viser]\" x3"
+    },
+    "e": {
+      "en": "Armor on target hit location is subjected to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>"
+      },
     "n": "Destroy Armor targets the player but affects the Hit Location. Visibility can be drawn to any part of the player, not just the desired Hit Location. Immunities, resistances, and other protections will only protect the armor from Destroy Armor if they specifically extend to the armor, such as Blessed Aura. Abilities like Enlightened Soul, Protection from Magic, and Adaptive Protection (Death) do not extend to armor and thus cannot protect against Destroy Armor. Ancestral Armor does not protect against verbal magic and thus cannot protect against Destroy Armor"
   },
   "destructionarrow": {
@@ -544,10 +684,14 @@
     },
     "t": "Specialty Arrow",
     "s": "Sorcery",
-    "i": "\"Destruction Arrow\"",
-    "if": "\"Flèche Destructrice\"",
+    "i": {
+      "en":"\"Destruction Arrow\"",
+      "fr": "\"Flèche Destructrice\""
+    },
     "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with red head cover labeled \"Destruction\"",
-    "e": "This arrow is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a>. Armor Destroying and Shield Destroying are applied after the normal effect of being hit with an arrow is applied"
+    "e": {
+      "en": "This arrow is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a>. Armor Destroying and Shield Destroying are applied after the normal effect of being hit with an arrow is applied"
+      }
   },
   "dimensionalrift": {
     "name": "Dimensional Rift",
@@ -558,9 +702,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "20'",
-    "i": "\"The power of the aether consumes thee\" x3",
-    "if": "\"La puissance de l'éther te consumme\" x3",
-    "e": "Target <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> player dies."
+    "i": {
+      "en":"\"The power of the aether consumes thee\" x3",
+      "fr": "\"La puissance de l'éther te consumme\" x3"
+    },
+    "e": {
+      "en": "Target <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> player dies."
+      }
   },
   "discordia": {
     "name": "Discordia",
@@ -571,10 +719,15 @@
     "t": "Enchantment",
     "s": "Command",
     "r": "Self",
-    "i": "\"My discordant melodies shall stymie my foes\" x3",
-    "if": "\"Que mon remue-ménage déconcentre mes ennemis\" x3",
+    "i": {
+      "en":"\"My discordant melodies shall stymie my foes\" x3",
+      "fr": "\"Que mon remue-ménage déconcentre mes ennemis\" x3"
+    },
     "m": "Five red strips",
-    "e": "Bearer may cast Break Concentration (m) by incanting \"<i>&gt:Player&lt; thou art suppressed</i>\" (fr: \"<i>&gt:Joueur&lt; tu es bâillonné</i>\") and removing an enchantment strip. Enchantment is removed when the last strip is removed."
+    "e": {
+      "en": "Bearer may cast Break Concentration (m) by incanting \"<i>&gt:Player&lt; thou art suppressed</i>\"  and removing an enchantment strip. Enchantment is removed when the last strip is removed.",
+      "fr": "Bearer may cast Break Concentration (m) by incanting \"<i>&gt:Joueur&lt; tu es bâillonné</i>\" and removing an enchantment strip. Enchantment is removed when the last strip is removed."
+      }
   },
   "dispelmagic": {
     "name": "Dispel Magic",
@@ -588,9 +741,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "20'",
-    "i": "\"By my power I dispel that magic\" x3",
-    "if": "\"Que ma puissance dissipe tes enchantements\" x3",
-    "e": "All Enchantments on target are removed",
+    "i": {
+      "en":"\"By my power I dispel that magic\" x3",
+      "fr": "\"Que ma puissance dissipe tes enchantements\" x3"
+    },
+    "e": {
+      "en": "All Enchantments on target are removed"
+      },
     "n": "Will always remove enchantments if successfully cast on a valid target, regardless of the player's Traits, States, Immunities, Ongoing Effects, or Enchantments (except Sleight of Mind)"
   },
   "draggedbelow": {
@@ -602,9 +759,13 @@
     "t": "Verbal",
     "s": "Death",
     "r": "20'",
-    "i": "\"Death comes for thee from below\" x3",
-    "if": "\"La mort vient de par en bas\" x3",
-    "e": "Target <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> player dies"
+    "i": {
+      "en":"\"Death comes for thee from below\" x3",
+      "fr": "\"La mort vient de par en bas\" x3"
+    },
+    "e": {
+      "en": "Target <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> player dies"
+      }
   },
   "elementalbarrage": {
     "name": "Elemental Barrage",
@@ -615,9 +776,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Self",
-    "i": "\"I am filled with the power of magic\"",
-    "if": "\"Je regorge de la puissance de la magie\"",
-    "e": "Caster may use Magic Balls they are currently carrying by stating the name of the Magic Ball immediately prior to throwing the ball in place of the incantation",
+    "i": {
+      "en":"\"I am filled with the power of magic\"",
+      "fr": "\"Je regorge de la puissance de la magie\""
+    },
+    "e": {
+      "en": "Caster may use Magic Balls they are currently carrying by stating the name of the Magic Ball immediately prior to throwing the ball in place of the incantation"
+      },
     "l": "This magic ends if the caster picks up any additional Magic Balls or begins casting any new Magical abilities.",
     "n": "The effect is not an incantation, and so is not stopped by being <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a>, and may be used while moving, etc."
   },
@@ -630,9 +795,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Other",
-    "i": "\"I empower thee\"",
-    "if": "\"Je te revigore\"",
-    "e": "Target player regains one use of any per-life Ability or Magic they have expended",
+    "i": {
+      "en":"\"I empower thee\"",
+      "fr": "\"Je te revigore\""
+    },
+    "e": {
+      "en": "Target player regains one use of any per-life Ability or Magic they have expended"
+      },
     "l": "Does not function on Empower, Confidence, or Restoration",
     "n": "Does not allow a player to have more than their maximum uses of a Magic or Ability."
   },
@@ -646,10 +815,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"A distant magic has no hold upon thy now enlightened soul\" x3",
-    "if": "\"La magie lointaine n'affecte pas ton esprit illuminé\" x3",
+    "i": {
+      "en":"\"A distant magic has no hold upon thy now enlightened soul\" x3",
+      "fr": "\"La magie lointaine n'affecte pas ton esprit illuminé\" x3"
+    },
     "m": "White Strip",
-    "e": "Player is unaffected by Verbal Magical abilities used at a Range greater than Touch.",
+    "e": {
+      "en": "Player is unaffected by Verbal Magical abilities used at a Range greater than Touch."
+      },
     "l": "Affects beneficial as well as harmful Magical abilities.",
     "n": "Does not affect (ex) abilities, abilities with a Range of Touch, or abilities whose Range is greater than Touch but are used at a Range of Touch anyway."
   },
@@ -663,10 +836,14 @@
     },
     "t": "Magic Ball",
     "s": "Subdual",
-    "i": "\"The strength of earth is mine to evoke\" x3",
-    "if": "\"J'invoque la force arcane de la terre\" x3",
+    "i": {
+      "en":"\"The strength of earth is mine to evoke\" x3",
+      "fr": "\"J'invoque la force arcane de la terre\" x3"
+    },
     "m": "Brown Magic Ball",
-    "e": "Target is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> for 60 seconds. Engulfing"
+    "e": {
+      "en": "Target is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> for 60 seconds. Engulfing"
+      }
   },
   "equipmentarmor1point": {
     "name": "Equipment: Armor, 1 Point",
@@ -675,7 +852,9 @@
       "Bard": "2"
     },
     "t": "Neutral",
-    "e": "Your class maximum armor limit increases one additional point"
+    "e": {
+      "en": "Your class maximum armor limit increases one additional point"
+      }
   },
   "equipmentshieldmedium": {
     "name": "Equipment: Shield, Medium",
@@ -685,7 +864,9 @@
       "Healer": "3"
     },
     "t": "Neutral",
-    "e": "May wield up to a medium shield"
+    "e": {
+      "en": "May wield up to a medium shield"
+      }
   },
   "equipmentshieldsmall": {
     "name": "Equipment: Shield, Small",
@@ -696,7 +877,9 @@
       "Healer": "1"
     },
     "t": "Neutral",
-    "e": "May wield a small shield"
+    "e": {
+      "en": "May wield a small shield"
+      }
   },
   "equipmentweapongreat": {
     "name": "Equipment: Weapon, Great",
@@ -705,7 +888,9 @@
       "Druid": "5"
     },
     "t": "Neutral",
-    "e": "May wield one <a href=\"/weapons/#Great\" data-ajax=\"false\">great weapon</a> at a time for each instance purchased (but may carry extras)"
+    "e": {
+      "en": "May wield one <a href=\"/weapons/#Great\" data-ajax=\"false\">great weapon</a> at a time for each instance purchased (but may carry extras)"
+      }
   },
   "equipmentweaponhinged": {
     "name": "Equipment: Weapon, Hinged",
@@ -714,7 +899,9 @@
       "Healer": "2"
     },
     "t": "Neutral",
-    "e": "May wield one <a href=\"/weapons/#Hinged\" data-ajax=\"false\">hinged weapon</a> at a time for each instance purchased (but may carry extras)"
+    "e": {
+      "en": "May wield one <a href=\"/weapons/#Hinged\" data-ajax=\"false\">hinged weapon</a> at a time for each instance purchased (but may carry extras)"
+      }
   },
   "equipmentweaponlong": {
     "name": "Equipment: Weapon, Long",
@@ -725,7 +912,9 @@
       "Wizard": "5"
     },
     "t": "Neutral",
-    "e": "May wield one <a href=\"/weapons/#Long\" data-ajax=\"false\">long weapon</a> at a time for each instance purchased (but may carry extras)"
+    "e": {
+      "en": "May wield one <a href=\"/weapons/#Long\" data-ajax=\"false\">long weapon</a> at a time for each instance purchased (but may carry extras)"
+      }
   },
   "equipmentweaponshort": {
     "name": "Equipment: Weapon, Short",
@@ -737,7 +926,9 @@
       "Wizard": "1"
     },
     "t": "Neutral",
-    "e": "May wield one <a href=\"/weapons/#Short\" data-ajax=\"false\">short weapon</a> at a time for each instance purchased (but may carry extras)"
+    "e": {
+      "en": "May wield one <a href=\"/weapons/#Short\" data-ajax=\"false\">short weapon</a> at a time for each instance purchased (but may carry extras)"
+      }
   },
   "essencegraft": {
     "name": "Essence Graft",
@@ -748,10 +939,14 @@
     "t": "Enchantment",
     "s": "Sorcery",
     "r": "Other",
-    "i": "\"I enchant thee with essence graft\" x3",
-    "if": "\"Je t'enchante pour accepter la greffe\" x3",
+    "i": {
+      "en":"\"I enchant thee with essence graft\" x3",
+      "fr": "\"Je t'enchante pour accepter la greffe\" x3"
+    },
     "m": "Yellow Strip",
-    "e": "Bearer may wear up to three additional Enchantments. Essence Graft does not count towards the bearer's Enchantment limit",
+    "e": {
+      "en": "Bearer may wear up to three additional Enchantments. Essence Graft does not count towards the bearer's Enchantment limit"
+      },
     "l": "Bearer may only wear (m) Enchantments from the caster of Essence Graft. This ability may not be used in conjunction with any other similar ability or magic",
     "n": "If Essence Graft is removed, the bearer chooses which (m) Enchantments to lose to meet their new Enchantment limit, if necessary"
   },
@@ -763,7 +958,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Verbals purchased may only be of range Touch or Self. <a href=\"/spells/e#elementalbarrage\" data-ajax=\"false\">Elemental Barrage</a> becomes Charge x10",
+    "e": {
+      "en": "Verbals purchased may only be of range Touch or Self. <a href=\"/spells/e#elementalbarrage\" data-ajax=\"false\">Elemental Barrage</a> becomes Charge x10"
+      },
     "n": "Elemental Barrage must still be purchased"
   },
   "evolution": {
@@ -775,7 +972,9 @@
     "t": "Enchantment",
     "s": "Sorcery",
     "r": "Self",
-    "e": "May wear an additional Enchantment. Evolution does not count towards the bearer's Enchantment limit",
+    "e": {
+      "en": "May wear an additional Enchantment. Evolution does not count towards the bearer's Enchantment limit"
+      },
     "n": "This ability does work in conjunction with Attuned, Essence Graft, or Phoenix Tears so long as the other limitations of those Enchantments are followed"
   },
   "experienced": {
@@ -789,7 +988,9 @@
     },
     "t": "Neutral",
     "s": "Neutral",
-    "e": "A single per-life Verbal purchased becomes Charge x5 in addition to the normal frequency OR a single per- refresh Verbal purchased becomes Charge x10 in addition to the normal frequency. This Verbal must be determined before the game begins and cannot be changed",
+    "e": {
+      "en": "A single per-life Verbal purchased becomes Charge x5 in addition to the normal frequency OR a single per- refresh Verbal purchased becomes Charge x10 in addition to the normal frequency. This Verbal must be determined before the game begins and cannot be changed"
+      },
     "l": "Verbal must be 4th level or lower"
   },
   "extendimmunities": {
@@ -801,10 +1002,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"May the blessing of my god protect thee\" x3",
-    "if": "\"Que mes bénédictions divines t'envelopent\" x3",
+    "i": {
+      "en":"\"May the blessing of my god protect thee\" x3",
+      "fr": "\"Que mes bénédictions divines t'enveloppent\" x3"
+    },
     "m": "White Strip",
-    "e": "The target player gains either <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to <a href=\"/spells/definitions#school\" data-ajax=\"false\">Command</a> or Immune to <a href=\"/spells/definitions#school\" data-ajax=\"false\">Death</a>",
+    "e": {
+      "en": "The target player gains either <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to <a href=\"/spells/definitions#school\" data-ajax=\"false\">Command</a> or Immune to <a href=\"/spells/definitions#school\" data-ajax=\"false\">Death</a>"
+      },
     "l": "Type of Ability must be chosen at the time of casting and may not be changed. The caster may only have one instance of Extend Immunities active at a time"
   },
   "extension": {
@@ -818,9 +1023,13 @@
     },
     "t": "Meta-Magic",
     "s": "Neutral",
-    "i": "\"Extension\"",
-    "if": "\"Grande portée\"",
-    "e": "Verbal becomes 50'. Only works on verbals with a range of 20'"
+    "i": {
+      "en":"\"Extension\"",
+      "fr": "\"Grande portée\""
+    },
+    "e": {
+      "en": "Verbal becomes 50'. Only works on verbals with a range of 20'"
+      }
   },
   "fingerofdeath": {
     "name": "Finger of Death",
@@ -831,9 +1040,13 @@
     "t": "Verbal",
     "s": "Death",
     "r": "20'",
-    "i": "\"I call upon death to smite thee\" x3",
-    "if": "\"J'invoque la mort pour qu'elle t'abatte\" x3",
-    "e": "Target player dies"
+    "i": {
+      "en":"\"I call upon death to smite thee\" x3",
+      "fr": "\"J'invoque la mort pour qu'elle t'abatte\" x3"
+    },
+    "e": {
+      "en": "Target player dies"
+      }
   },
   "fireball": {
     "name": "Fireball",
@@ -844,10 +1057,14 @@
     },
     "t": "Magic Ball",
     "s": "Flame",
-    "i": "\"The flame of fire is mine to evoke\" x3",
-    "if": "\"J'invoque la force prométhéenne des flammes\" x3",
+    "i": {
+      "en":"\"The flame of fire is mine to evoke\" x3",
+      "fr": "\"J'invoque la force prométhéenne des flammes\" x3"
+    },
     "m": "Red Magic Ball",
-    "e": "Fireball will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. A shield hit is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a><br>3. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a><br>4. A player hit dies."
+    "e": {
+      "en": "Fireball will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. A shield hit is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a><br>3. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a><br>4. A player hit dies."
+      }
   },
   "flameblade": {
     "name": "Flame Blade",
@@ -859,10 +1076,14 @@
     "t": "Enchantment",
     "s": "Flame",
     "r": "Other",
-    "i": "\"The element of fire shall infuse your weapons\" x3",
-    "if": "\"Que l'élément du feu destructeur imprègne tes armes\" x3",
+    "i": {
+      "en":"\"The element of fire shall infuse your weapons\" x3",
+      "fr": "\"Que l'élément du feu destructeur imprègne tes armes\" x3"
+    },
     "m": "Red Strip and White Strip",
-    "e": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer and their wielded weapons are Immune to Flame."
+    "e": {
+      "en": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer and their wielded weapons are Immune to Flame."
+      }
   },
   "forcebarrier": {
     "name": "Force Barrier",
@@ -873,9 +1094,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Self",
-    "i": "\"I shall not be harmed\"",
-    "if": "\"Je suis intouchable\"",
-    "e": "Player is <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 10 seconds"
+    "i": {
+      "en":"\"I shall not be harmed\"",
+      "fr": "\"Je suis intouchable\""
+    },
+    "e": {
+      "en": "Player is <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 10 seconds"
+      }
   },
   "forcebolt": {
     "name": "Force Bolt",
@@ -887,10 +1112,14 @@
     },
     "t": "Magic Ball",
     "s": "Sorcery",
-    "i": "\"Forcebolt\" x3",
-    "if": "\"Trait d'force\" x3",
+    "i": {
+      "en":"\"Forcebolt\" x3",
+      "fr": "\"Trait d'force\" x3"
+    },
     "m": "Blue Magic Ball",
-    "e": "Force Bolt will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a><br>3. A player hit receives a Wound to that hit location"
+    "e": {
+      "en": "Force Bolt will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a><br>3. A player hit receives a Wound to that hit location"
+      }
   },
   "giftofair": {
     "name": "Gift of Air",
@@ -901,10 +1130,15 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"I grant thee a gift of the air\" x3",
-    "if": "\"Je te confère le don de l'air\" x3",
+    "i": {
+      "en":"\"I grant thee a gift of the air\" x3",
+      "fr": "\"Je te confère le don de l'air\" x3"
+    },
     "m": "White Strip",
-    "e": "The effects of any weapon or ammunition which just struck the bearer are ignored, instead the bearer declares \"Gift of Air\" (fr: \"Don de l'Air\") and becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. If the bearer is wearing armor it is affected as normal in addition to triggering Gift of Air. Bearer may choose to return directly to their base immediately after Gift of Air activates as a <a href=\"/spells/definitions#forcedmovement\" data-ajax=\"false\">Forced Movement</a> effect. Melee weapons with the <a href=\"/weapons/#Siege\" data-ajax=\"false\">Siege</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>, or <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a> Special Effects will affect the bearer as normal and do not trigger Gift of Air",
+    "e": {
+      "en": "The effects of any weapon or ammunition which just struck the bearer are ignored, instead the bearer declares \"Gift of Air\"  and becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. If the bearer is wearing armor it is affected as normal in addition to triggering Gift of Air. Bearer may choose to return directly to their base immediately after Gift of Air activates as a <a href=\"/spells/definitions#forcedmovement\" data-ajax=\"false\">Forced Movement</a> effect. Melee weapons with the <a href=\"/weapons/#Siege\" data-ajax=\"false\">Siege</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>, or <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a> Special Effects will affect the bearer as normal and do not trigger Gift of Air",
+      "fr": "The effects of any weapon or ammunition which just struck the bearer are ignored, instead the bearer declares \"Don de l'Air\" and becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. If the bearer is wearing armor it is affected as normal in addition to triggering Gift of Air. Bearer may choose to return directly to their base immediately after Gift of Air activates as a <a href=\"/spells/definitions#forcedmovement\" data-ajax=\"false\">Forced Movement</a> effect. Melee weapons with the <a href=\"/weapons/#Siege\" data-ajax=\"false\">Siege</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Destroying</a>, <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>, or <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a> Special Effects will affect the bearer as normal and do not trigger Gift of Air"
+      },
     "l": "Bearer may not wield weapons or shields",
     "n": "If the <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> State is ended, the player is not required to continue returning to base. Bearer may end this Insubstantial State at any time by using the exit incantation for Insubstantial"
   },
@@ -917,10 +1151,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"I grant thee a gift of the earth\" x3",
-    "if": "\"Je te confère le don du sol\" x3",
+    "i": {
+      "en":"\"I grant thee a gift of the earth\" x3",
+      "fr": "\"Je te confère le don du sol\" x3"
+    },
     "m": "White Strip",
-    "e": "Bearer gains one point of magic armor and is affected as per <a href=\"/spells/h#harden\" data-ajax=\"false\">Harden</a>."
+    "e": {
+      "en": "Bearer gains one point of magic armor and is affected as per <a href=\"/spells/h#harden\" data-ajax=\"false\">Harden</a>."
+      }
   },
   "giftoffire": {
     "name": "Gift of Fire",
@@ -931,10 +1169,14 @@
     "t": "Enchantment",
     "s": "Flame",
     "r": "Other",
-    "i": "\"I grant thee a gift of the fire\" x3",
-    "if": "\"Je te confère le don du feu\" x3",
+    "i": {
+      "en":"\"I grant thee a gift of the fire\" x3",
+      "fr": "\"Je te confère le don du feu\" x3"
+    },
     "m": "Red Strip and White Strip",
-    "e": "Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Flame and gains <a href=\"/spells/h#heatweapon\" data-ajax=\"false\">Heat Weapon</a> 1/Refresh Charge x3"
+    "e": {
+      "en": "Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Flame and gains <a href=\"/spells/h#heatweapon\" data-ajax=\"false\">Heat Weapon</a> 1/Refresh Charge x3"
+      }
   },
   "giftofwater": {
     "name": "Gift of Water",
@@ -945,10 +1187,14 @@
     "t": "Enchantment",
     "s": "Sorcery",
     "r": "Other",
-    "i": "\"I grant thee a gift of the water\" x3",
-    "if": "\"Je te confère le don de l'eau\" x3",
+    "i": {
+      "en":"\"I grant thee a gift of the water\" x3",
+      "fr": "\"Je te confère le don de l'eau\" x3"
+    },
     "m": "White Strip and Yellow Strip",
-    "e": "Bearer gains one point of magic armor and <a href=\"/spells/h#heal\" data-ajax=\"false\">Heal</a> (self- only) unlimited (m)"
+    "e": {
+      "en": "Bearer gains one point of magic armor and <a href=\"/spells/h#heal\" data-ajax=\"false\">Heal</a> (self- only) unlimited (m)"
+      }
   },
   "golem": {
     "name": "Golem",
@@ -959,10 +1205,14 @@
     "t": "Enchantment",
     "s": "Sorcery",
     "r": "Other",
-    "i": "\"From earth and clay I form thee\" x3",
-    "if": "\"Je te construis de terre glaise\" x3",
+    "i": {
+      "en":"\"From earth and clay I form thee\" x3",
+      "fr": "\"Je te construis de terre glaise\" x3"
+    },
     "m": "White Strip and Red Strip",
-    "e": "Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Death. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer can remove a Wound via Mend. Bearer may use the caster as an alternate respawn point while the caster is alive. Bearer may treat the caster as a base for the purposes of the effects which require the teammate to go to their base. Non-magical armor worn affected as per Imbue Armor. All Enchantments worn by the Bearer, including Golem, are Persistent while Golem is worn",
+    "e": {
+      "en": "Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Death. Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer can remove a Wound via Mend. Bearer may use the caster as an alternate respawn point while the caster is alive. Bearer may treat the caster as a base for the purposes of the effects which require the teammate to go to their base. Non-magical armor worn affected as per Imbue Armor. All Enchantments worn by the Bearer, including Golem, are Persistent while Golem is worn"
+      },
     "l": "A caster may only have a single Golem Enchantment active at a time",
     "n": "Greater Mend and Word of Mending will not remove a wound"
   },
@@ -976,10 +1226,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"I enchant thee with Greater Harden\" x3",
-    "if": "\"Je t'enchante de dureté supérieure\" x3",
+    "i": {
+      "en":"\"I enchant thee with Greater Harden\" x3",
+      "fr": "\"Je t'enchante de dureté supérieure\" x3"
+    },
     "m": "White Strip",
-    "e": "Shields and weapons wielded by the player are affected as per <a href=\"/spells/h#harden\" data-ajax=\"false\">Harden</a>. May only be cast on a player"
+    "e": {
+      "en": "Shields and weapons wielded by the player are affected as per <a href=\"/spells/h#harden\" data-ajax=\"false\">Harden</a>. May only be cast on a player"
+      }
   },
   "greaterheal": {
     "name": "Greater Heal",
@@ -991,9 +1245,13 @@
     "t": "Verbal",
     "s": "Spirit",
     "r": "Touch",
-    "i": "\"By the grace of the divine thou art healed\" x5",
-    "if": "\"Par la grace divine, tu es rétabli\" x5",
-    "e": "All wounds are healed. Ignores the <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> State"
+    "i": {
+      "en":"\"By the grace of the divine thou art healed\" x5",
+      "fr": "\"Par la grace divine, tu es rétabli\" x5"
+    },
+    "e": {
+      "en": "All wounds are healed. Ignores the <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> State"
+      }
   },
   "greatermend": {
     "name": "Greater Mend",
@@ -1006,9 +1264,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Touch",
-    "i": "\"Return this [object name] to its former glory\" x5",
-    "if": "\"Redonne à cet [nom de l'objet] sa splendeur d'antan\" x5",
-    "e": "Will restore all armor points in one location or repair a damaged or broken item"
+    "i": {
+      "en":"\"Return this [object name] to its former glory\" x5",
+      "fr": "\"Redonne à cet [nom de l'objet] sa splendeur d'antan\" x5"
+    },
+    "e": {
+      "en": "Will restore all armor points in one location or repair a damaged or broken item"
+      }
   },
   "greaterrelease": {
     "name": "Greater Release",
@@ -1020,9 +1282,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "20'",
-    "i": "\"From all thine afflictions thou art released\" x2",
-    "if": "\"De toutes tes misères, tu es libéré\" x2",
-    "e": "All ongoing effects and States are removed from the target. The caster may choose to leave some States or effects in place",
+    "i": {
+      "en":"\"From all thine afflictions thou art released\" x2",
+      "fr": "\"De toutes tes misères, tu es libéré\" x2"
+    },
+    "e": {
+      "en": "All ongoing effects and States are removed from the target. The caster may choose to leave some States or effects in place"
+      },
     "n": "Greater Release may target Dead players. When used to end a State or Ongoing Effect imposed by a magic or ability with multiple effects, all other States and Ongoing Effects from the same source are also ended"
   },
   "greaterresurrect": {
@@ -1035,9 +1301,13 @@
     "t": "Verbal",
     "s": "Spirit",
     "r": "Other",
-    "i": "\"By the grace of the divine thou art resurrected\" x5",
-    "if": "\"Par la grace divine, tu nous reviens d'entre les morts\" x5",
-    "e": "Target dead player who has not moved more than 5' from where they died is returned to life. Any wounds on the player are healed. Works regardless of any States on the target, and removes <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> if present",
+    "i": {
+      "en":"\"By the grace of the divine thou art resurrected\" x5",
+      "fr": "\"Par la grace divine, tu nous reviens d'entre les morts\" x5"
+    },
+    "e": {
+      "en": "Target dead player who has not moved more than 5' from where they died is returned to life. Any wounds on the player are healed. Works regardless of any States on the target, and removes <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> if present"
+      },
     "n": "Enchantments on the player are retained"
   },
   "guardian": {
@@ -1048,7 +1318,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/i#imbueshield\" data-ajax=\"false\">Imbue Shield</a> (Touch) 1/Life (m) and <a href=\"/spells/m#martyr\" data-ajax=\"false\">Martyr</a> 2/Life Charge x3 (ex).",
+    "e": {
+      "en": "Gain <a href=\"/spells/i#imbueshield\" data-ajax=\"false\">Imbue Shield</a> (Touch) 1/Life (m) and <a href=\"/spells/m#martyr\" data-ajax=\"false\">Martyr</a> 2/Life Charge x3 (ex)."
+      },
     "l": "Lose all instances of <a href=\"/spells/p#protectionfrommagic\" data-ajax=\"false\">Protection from Magic</a> and <a href=\"/spells/e#extendimmunities\" data-ajax=\"false\">Extend Immunities</a>. May only have one instance of Imbue Shield active at a time."
   },
   "harden": {
@@ -1061,10 +1333,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"I enchant thee with Harden\" x3",
-    "if": "\"Je t'enchante de dureté\" x3",
+    "i": {
+      "en":"\"I enchant thee with Harden\" x3",
+      "fr": "\"Je t'enchante de dureté\" x3"
+    },
     "m": "White Strip",
-    "e": "Bearer's wielded weapons or shield may only be destroyed or damaged by Magic Balls/Verbals which affect objects e.g. Fireball or Pyrotechnics",
+    "e": {
+      "en": "Bearer's wielded weapons or shield may only be destroyed or damaged by Magic Balls/Verbals which affect objects e.g. Fireball or Pyrotechnics"
+      },
     "l": "Will only affect either the weapons or the shield of the bearer, not both"
   },
   "heal": {
@@ -1079,9 +1355,13 @@
     "t": "Verbal",
     "s": "Spirit",
     "r": "Touch",
-    "i": "\"The white light of healing hath healed thee\" x5",
-    "if": "\"La lumière de la vie te guérit\" x5",
-    "e": "Target player heals a Wound"
+    "i": {
+      "en":"\"The white light of healing hath healed thee\" x5",
+      "fr": "\"La lumière de la vie te guérit\" x5"
+    },
+    "e": {
+      "en": "Target player heals a Wound"
+      }
   },
   "heartoftheswarm": {
     "name": "Heart of the Swarm",
@@ -1093,10 +1373,15 @@
     "t": "Enchantment",
     "s": "Spirit",
     "r": "Self",
-    "i": "\"Let all those who oppose the hive feel the wrath of the swarm\" x3",
-    "if": "\"Qui s'oppose à la ruche subit le venin de l'essaim\" x3",
+    "i": {
+      "en":"\"Let all those who oppose the hive feel the wrath of the swarm\" x3",
+      "fr": "\"Qui s'oppose à la ruche subit le venin de l'essaim\" x3"
+    },
     "m": "Yellow Strip",
-    "e": "Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Any player on the bearer's team may use the bearer as their respawn point as per the normal game rules. Players respawning at the caster do so by announcing \"My life for the swarm.\" (fr: \"Ma vie pour l'essaim.\") Players on the bearer's team may treat the bearer as a base for the purposes of the effects which require the teammate to go to their base",
+    "e": {
+      "en": "Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Any player on the bearer's team may use the bearer as their respawn point as per the normal game rules. Players respawning at the caster do so by announcing \"My life for the swarm.\"Players on the bearer's team may treat the bearer as a base for the purposes of the effects which require the teammate to go to their base",
+      "fr": "Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Any player on the bearer's team may use the bearer as their respawn point as per the normal game rules. Players respawning at the caster do so by announcing \"Ma vie pour l'essaim.\" Players on the bearer's team may treat the bearer as a base for the purposes of the effects which require the teammate to go to their base"
+      },
     "l": "Players can not respawn at the bearer if there are living enemy players or a game objective within 20' of the bearer"
   },
   "heatweapon": {
@@ -1109,9 +1394,13 @@
     "t": "Verbal",
     "s": "Flame",
     "r": "20'",
-    "i": "\"I call upon flame to heat that [type of weapon]\" x3",
-    "if": "\"J'invoque les flammes pour chauffer ce [type d'arme]\" x3",
-    "e": "Target weapon may not be wielded for 30 seconds. Players who are <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Flame may continue to wield the weapon",
+    "i": {
+      "en":"\"I call upon flame to heat that [type of weapon]\" x3",
+      "fr": "\"J'invoque les flammes pour chauffer ce [type d'arme]\" x3"
+    },
+    "e": {
+      "en": "Target weapon may not be wielded for 30 seconds. Players who are <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Flame may continue to wield the weapon"
+      },
     "n": "The equipment, not the person, is the target of Heat Weapon. The equipment is the only thing required to be within range and visible for this ability to affect it"
   },
   "holdperson": {
@@ -1126,9 +1415,13 @@
     "t": "Verbal",
     "s": "Command",
     "r": "20'",
-    "i": "\"I command thee to stop\" x3",
-    "if": "\"Je t'ordonne un arrêt\" x3",
-    "e": "Target player becomes <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> for 30 seconds"
+    "i": {
+      "en":"\"I command thee to stop\" x3",
+      "fr": "\"Je t'ordonne un arrêt\" x3"
+    },
+    "e": {
+      "en": "Target player becomes <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> for 30 seconds"
+      }
   },
   "hunter": {
     "name": "Hunter",
@@ -1138,7 +1431,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May wield Great Weapons and Javelins.<br>Pick One:<ul><li><a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a> becomes 1/Life Charge x3 (m).</li><li><a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a> becomes 2 Arrows / Unlimited (ex).</li></ul>",
+    "e": {
+      "en": "May wield Great Weapons and Javelins.<br>Pick One:<ul><li><a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a> becomes 1/Life Charge x3 (m).</li><li><a href=\"/spells/p#pinningarrow\" data-ajax=\"false\">Pinning Arrow</a> becomes 2 Arrows / Unlimited (ex).</li></ul>"
+      },
     "l": "May not wield Shields. Loses all instances of <a href=\"/spells/e#evolution\" data-ajax=\"false\">Evolution</a> and <a href=\"/spells/r#release\" data-ajax=\"false\">Release</a>",
     "n": "Gain the benefit of an option only if that ability was chosen at level 4"
   },
@@ -1152,10 +1447,14 @@
     },
     "t": "Magic Ball",
     "s": "Subdual",
-    "i": "\"The strength of ice is mine to evoke\" x3",
-    "if": "\"J'invoque la force arcane de la glace\" x3",
+    "i": {
+      "en":"\"The strength of ice is mine to evoke\" x3",
+      "fr": "\"J'invoque la force arcane de la glace\" x3"
+    },
     "m": "White Magic Ball",
-    "e": "Target player becomes <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 60 seconds. Engulfing"
+    "e": {
+      "en": "Target player becomes <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 60 seconds. Engulfing"
+      }
   },
   "icyblast": {
     "name": "Icy Blast",
@@ -1167,9 +1466,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "20'",
-    "i": "\"My power makes thee frozen\" x3",
-    "if": "\"Ma puissance te rend congelé\" x3",
-    "e": "Target player becomes <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 30 seconds"
+    "i": {
+      "en":"\"My power makes thee frozen\" x3",
+      "fr": "\"Ma puissance te rend congelé\" x3"
+    },
+    "e": {
+      "en": "Target player becomes <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 30 seconds"
+      }
   },
   "imbuearmor": {
     "name": "Imbue Armor",
@@ -1181,10 +1484,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"I enchant thee with Imbued Armor\" x3",
-    "if": "\"Je t'enchante d'une armure magique\" x3",
+    "i": {
+      "en":"\"I enchant thee with Imbued Armor\" x3",
+      "fr": "\"Je t'enchante d'une armure magique\" x3"
+    },
     "m": "White Strip",
-    "e": "All armor worn by the bearer gains a +1 modifier. This modifier may allow the armor to exceed the maximum value for its type, up to the bearer's class maximum",
+    "e": {
+      "en": "All armor worn by the bearer gains a +1 modifier. This modifier may allow the armor to exceed the maximum value for its type, up to the bearer's class maximum"
+      },
     "n": "Does not apply to magic armor. A player may only benefit from one instance of Imbue Armor, or similar magic and abilities that increase Armor Points, at a time"
   },
   "imbueshield": {
@@ -1197,10 +1504,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"This shield shall neither bend nor break\" x3",
-    "if": "\"Ce bouclier est incassable\" x3",
+    "i": {
+      "en":"\"This shield shall neither bend nor break\" x3",
+      "fr": "\"Ce bouclier est incassable\" x3"
+    },
     "m": "White Strip",
-    "e": "Shield wielded by the player cannot be destroyed nor damaged. Engulfing effects hitting the wielded shield are ignored"
+    "e": {
+      "en": "Shield wielded by the player cannot be destroyed nor damaged. Engulfing effects hitting the wielded shield are ignored"
+      }
   },
   "imbueweapon": {
     "name": "Imbue Weapon",
@@ -1211,8 +1522,10 @@
     "t": "Enchantment",
     "s": "Death",
     "r": "Touch",
-    "i": "\"I enchant thee to slay all foes\" x3",
-    "if": "\"Je t'enchante pour tous les abattre\" x3",
+    "i": {
+      "en":"\"I enchant thee to slay all foes\" x3",
+      "fr": "\"Je t'enchante pour tous les abattre\" x3"
+    },
     "m": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>."
   },
   "infernal": {
@@ -1223,7 +1536,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/f#fireball\" data-ajax=\"false\">Fireball</a> 2 Balls / Unlimited (m). <a href=\"/spells/f#flameblade\" data-ajax=\"false\">Flame Blade</a> becomes (Self) 2/Refresh Charge x5.",
+    "e": {
+      "en": "Gain <a href=\"/spells/f#fireball\" data-ajax=\"false\">Fireball</a> 2 Balls / Unlimited (m). <a href=\"/spells/f#flameblade\" data-ajax=\"false\">Flame Blade</a> becomes (Self) 2/Refresh Charge x5."
+      },
     "l": "May not wield Shields and lose all instances of <a href=\"/spells/s#steallifeessence\" data-ajax=\"false\">Steal Life Essence</a>."
   },
   "innate": {
@@ -1238,9 +1553,13 @@
     },
     "t": "Meta-Magic",
     "s": "Neutral",
-    "i": "\"Innate\"",
-    "if": "\"Inné\"",
-    "e": "May be used to instantly Charge a single ability by stating its name"
+    "i": {
+      "en":"\"Innate\"",
+      "fr": "\"Inné\""
+    },
+    "e": {
+      "en": "May be used to instantly Charge a single ability by stating its name"
+      }
   },
   "inquisitor": {
     "name": "Inquisitor",
@@ -1250,7 +1569,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/s#sacredblades\" data-ajax=\"false\">Sacred Blades</a> (Self) 1/Life (ex).",
+    "e": {
+      "en": "Gain <a href=\"/spells/s#sacredblades\" data-ajax=\"false\">Sacred Blades</a> (Self) 1/Life (ex)."
+      },
     "l": "Player loses all instances of <a href=\"/spells/g#greaterresurrect\" data-ajax=\"false\">Greater Resurrect</a>."
   },
   "insult": {
@@ -1263,9 +1584,13 @@
     "t": "Verbal",
     "s": "Command",
     "r": "20'",
-    "i": "\"I command thy attention\" x3",
-    "if": "\"Je t'ordonne de m'attaquer\" x3",
-    "e": "Target is unable to attack or cast Magical abilities at anyone other than the caster or their carried equipment for 30 seconds, or until either party dies. If the target of Insult is attacked or has Magical abilities cast on them or their carried equipment by someone other than the caster, the target of Insult becomes able to choose to attack the offending party as well.",
+    "i": {
+      "en":"\"I command thy attention\" x3",
+      "fr": "\"Je t'ordonne de m'attaquer\" x3"
+    },
+    "e": {
+      "en": "Target is unable to attack or cast Magical abilities at anyone other than the caster or their carried equipment for 30 seconds, or until either party dies. If the target of Insult is attacked or has Magical abilities cast on them or their carried equipment by someone other than the caster, the target of Insult becomes able to choose to attack the offending party as well."
+      },
     "n": "The target may still charge and throw Magic Balls at the caster."
   },
   "ironskin": {
@@ -1277,10 +1602,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"I enchant thee with Ironskin\" x3",
-    "if": "\"Je te confère une peau de fer\" x3",
+    "i": {
+      "en":"\"I enchant thee with Ironskin\" x3",
+      "fr": "\"Je te confère une peau de fer\" x3"
+    },
     "m": "White Strip",
-    "e": "Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Flame and gains two points Magic Armor affected as per <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a>"
+    "e": {
+      "en": "Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Flame and gains two points Magic Armor affected as per <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a>"
+      }
   },
   "juggernaut": {
     "name": "Juggernaut",
@@ -1290,7 +1619,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Replace <a href=\"/spells/h#harden\" data-ajax=\"false\">Harden</a> with <a href=\"/spells/g#greaterharden\" data-ajax=\"false\">Greater Harden</a> at the same frequency. Gain <a href=\"/spells/p#phoenixtears\" data-ajax=\"false\">Phoenix Tears</a> (Self) 3/Refresh (ex) (Swift) and <a href=\"/spells/i#imbuearmor\" data-ajax=\"false\">Imbue Armor</a> (T).",
+    "e": {
+      "en": "Replace <a href=\"/spells/h#harden\" data-ajax=\"false\">Harden</a> with <a href=\"/spells/g#greaterharden\" data-ajax=\"false\">Greater Harden</a> at the same frequency. Gain <a href=\"/spells/p#phoenixtears\" data-ajax=\"false\">Phoenix Tears</a> (Self) 3/Refresh (ex) (Swift) and <a href=\"/spells/i#imbuearmor\" data-ajax=\"false\">Imbue Armor</a> (T)."
+      },
     "l": "Lose all instances of <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a> and <a href=\"/spells/t#truegrit\" data-ajax=\"false\">True Grit</a>"
   },
   "legend": {
@@ -1301,7 +1632,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Each Extension purchased gives double the uses. Example: 1/life becomes 2/life. Swift may not be purchased or used"
+    "e": {
+      "en": "Each Extension purchased gives double the uses. Example: 1/life becomes 2/life. Swift may not be purchased or used"
+      }
   },
   "lightningbolt": {
     "name": "Lightning Bolt",
@@ -1311,10 +1644,14 @@
     },
     "t": "Magic Ball",
     "s": "Flame",
-    "i": "\"The flame of storms is mine to evoke\" x3",
-    "if": "\"J'invoque la puissance des feux du ciel\" x3",
+    "i": {
+      "en":"\"The flame of storms is mine to evoke\" x3",
+      "fr": "\"J'invoque la puissance des feux du ciel\" x3"
+    },
     "m": "Yellow Magic Ball",
-    "e": "A player struck is subject to an Engulfing <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> effect for 60 seconds. In addition Lightning Bolt will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a><br>3. A player hit receives a Wound in that hit location"
+    "e": {
+      "en": "A player struck is subject to an Engulfing <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> effect for 60 seconds. In addition Lightning Bolt will have one of the following effects on the object first struck:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a><br>3. A player hit receives a Wound in that hit location"
+      }
   },
   "lost": {
     "name": "Lost",
@@ -1325,9 +1662,13 @@
     "t": "Verbal",
     "s": "Command",
     "r": "20'",
-    "i": "\"I command thee to be lost\" x3",
-    "if": "\"Je t'ordonne d'aller te perdre\" x3",
-    "e": "Player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> and must move directly to their base. Player must end their Insubstantial State as per normal once they reach their base",
+    "i": {
+      "en":"\"I command thee to be lost\" x3",
+      "fr": "\"Je t'ordonne d'aller te perdre\" x3"
+    },
+    "e": {
+      "en": "Player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> and must move directly to their base. Player must end their Insubstantial State as per normal once they reach their base"
+      },
     "n": "If the <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> State is ended before reaching the base, the rest of the effect is ended as well. If Lost is cast on self, the caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial"
   },
   "lycanthropy": {
@@ -1339,10 +1680,14 @@
     "t": "Enchantment",
     "s": "Death",
     "r": "Other",
-    "i": "\"I enchant thee with Lycanthopy.\" x3",
-    "if": "\"Je t'enchante du sang des loups-garous\" x3",
+    "i": {
+      "en":"\"I enchant thee with Lycanthopy.\" x3",
+      "fr": "\"Je t'enchante du sang des loups-garous\" x3"
+    },
     "m": "White Strip and Red Strip",
-    "e": "Bearer gains two points of magic armor. Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Command"
+    "e": {
+      "en": "Bearer gains two points of magic armor. Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a>. Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Command"
+      }
   },
   "marauder": {
     "name": "Marauder",
@@ -1352,7 +1697,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/m#momentum\" data-ajax=\"false\">Momentum</a> Unlimited (ex) (Ambulant). <a href=\"/spells/i#insult\" data-ajax=\"false\">Insult</a> becomes 1/Life Charge x5 (m) (Ambulant).",
+    "e": {
+      "en": "Gain <a href=\"/spells/m#momentum\" data-ajax=\"false\">Momentum</a> Unlimited (ex) (Ambulant). <a href=\"/spells/i#insult\" data-ajax=\"false\">Insult</a> becomes 1/Life Charge x5 (m) (Ambulant)."
+      },
     "l": "Maximum Armor becomes 4pts. May not wield Large Shields. Ancestral Armor is no longer chargeable."
   },
   "martyr": {
@@ -1364,9 +1711,13 @@
     "t": "Verbal",
     "s": "Spirit",
     "r": "Other",
-    "i": "\"Thy burdens are mine to bear\"",
-    "if": "\"Laisse moi porter tes fardeaux\"",
-    "e": "A single State is removed from target willing player. The caster gains the removed State with a new duration of 10 seconds",
+    "i": {
+      "en":"\"Thy burdens are mine to bear\"",
+      "fr": "\"Laisse moi porter tes fardeaux\""
+    },
+    "e": {
+      "en": "A single State is removed from target willing player. The caster gains the removed State with a new duration of 10 seconds"
+      },
     "l": "Cannot be cast while <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Caster may not remove themselves from <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> states gained this way"
   },
   "masshealing": {
@@ -1378,10 +1729,15 @@
     "t": "Enchantment",
     "s": "Spirit",
     "r": "Self",
-    "i": "\"Let the powers of healing flow through me\" x3",
-    "if": "\"Que la blanche lumière me ruissèle dessus\" x3",
+    "i": {
+      "en":"\"Let the powers of healing flow through me\" x3",
+      "fr": "\"Que la blanche lumière me ruissèle dessus\" x3"
+    },
     "m": "Five Yellow Strips",
-    "e": "Caster may Heal (m) a player at Touch range, by stating \"<i>I grant thee healing</i>\" (fr: \"<i>Je te confère soin</i>\"). and removing an enchantment strip. Enchantment is removed when the last strip is removed.",
+    "e": {
+      "en": "Caster may Heal (m) a player at Touch range, by stating \"<i>I grant thee healing</i>\". and removing an enchantment strip. Enchantment is removed when the last strip is removed.",
+      "fr": "Caster may Heal (m) a player at Touch range, by stating \"<i>Je te confère soin</i>\". and removing an enchantment strip. Enchantment is removed when the last strip is removed."
+      },
     "n": "The effect is not an incantation, and so is not stopped by being <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a>, and may be used while moving, etc."
   },
   "medium": {
@@ -1392,7 +1748,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/b#blessingagainstwounds\" data-ajax=\"false\">Blessing Against Wounds</a> (Touch) 1/Life (ex), <a href=\"/spells/s#severspirit\" data-ajax=\"false\">Sever Spirit</a> 1/Life Charge x3 (ex), and <a href=\"/spells/s#swift\" data-ajax=\"false\">Swift</a> 2/Life (ex). Abilities in the Spirit School become Charge x3.",
+    "e": {
+      "en": "Gain <a href=\"/spells/b#blessingagainstwounds\" data-ajax=\"false\">Blessing Against Wounds</a> (Touch) 1/Life (ex), <a href=\"/spells/s#severspirit\" data-ajax=\"false\">Sever Spirit</a> 1/Life Charge x3 (ex), and <a href=\"/spells/s#swift\" data-ajax=\"false\">Swift</a> 2/Life (ex). Abilities in the Spirit School become Charge x3."
+      },
     "l": "May not wear armor and may not wield Great Weapons."
   },
   "mend": {
@@ -1408,9 +1766,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Touch",
-    "i": "\"I make this item whole again\" x5",
-    "if": "\"Je répare cet objet cassé\" x5",
-    "e": "Destroyed or damaged item is repaired, or one point of armor in one location is repaired"
+    "i": {
+      "en":"\"I make this item whole again\" x5",
+      "fr": "\"Je répare cet objet cassé\" x5"
+    },
+    "e": {
+      "en": "Destroyed or damaged item is repaired, or one point of armor in one location is repaired"
+      }
   },
   "missileblock": {
     "name": "Missile Block",
@@ -1421,7 +1783,9 @@
     "t": "Granted as Trait",
     "s": "Protection",
     "r": "Self",
-    "e": "Player may block arrows, projectile weapons, and Magic Balls with their hands and wielded melee or thrown weapons. Any arrow, projectile weapon or magic ball blocked is nullified."
+    "e": {
+      "en": "Player may block arrows, projectile weapons, and Magic Balls with their hands and wielded melee or thrown weapons. Any arrow, projectile weapon or magic ball blocked is nullified."
+      }
   },
   "momentum": {
     "name": "Momentum",
@@ -1434,9 +1798,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Self",
-    "i": "\"Momentum\"",
-    "if": "\"Élan\"",
-    "e": "May be used to instantly Charge a single ability by stating its name.",
+    "i": {
+      "en":"\"Momentum\"",
+      "fr": "\"Élan\""
+    },
+    "e": {
+      "en": "May be used to instantly Charge a single ability by stating its name."
+      },
     "l": "<a href=\"/spells/definitions#killtrigger\" data-ajax=\"false\">Kill Trigger</a>."
   },
   "mutation": {
@@ -1448,7 +1816,9 @@
     "t": "Trait",
     "s": "Sorcery",
     "r": "Self",
-    "e": "Enchantments worn by the player are Persistent."
+    "e": {
+      "en": "Enchantments worn by the player are Persistent."
+      }
   },
   "mystic": {
     "name": "Mystic",
@@ -1458,7 +1828,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Force Bolt</a> 4 Balls / Unlimited (m) and <a href=\"/spells/s#suppressionbolt\" data-ajax=\"false\">Suppression Bolt</a> 2 Balls / Unlimited (m).",
+    "e": {
+      "en": "Gain <a href=\"/spells/f#forcebolt\" data-ajax=\"false\">Force Bolt</a> 4 Balls / Unlimited (m) and <a href=\"/spells/s#suppressionbolt\" data-ajax=\"false\">Suppression Bolt</a> 2 Balls / Unlimited (m)."
+      },
     "l": "May not wield Heavy Thrown. Lose all instances of Resurrect."
   },
   "naturalizemagic": {
@@ -1470,10 +1842,15 @@
     "t": "Enchantment",
     "s": "Sorcery",
     "r": "Self",
-    "i": "\"I shall restore the balance\" x3",
-    "if": "\"Je rétablie l'équilibre\" x3",
+    "i": {
+      "en":"\"I shall restore the balance\" x3",
+      "fr": "\"Je rétablie l'équilibre\" x3"
+    },
     "m": "Three Red Strips",
-    "e": "Bearer may cast Dispel Magic (m) by incanting \"<i>&lt;Player&gt; thou art dispelled.</i>\" (fr: \"<i>&lt;Joueur&gt; tu es dissipé.</i>\") and removing an enchantment strip. Enchantment is removed when the last strip is removed."
+    "e": {
+      "en": "Bearer may cast Dispel Magic (m) by incanting \"<i>&lt;Player&gt; thou art dispelled.</i>\" and removing an enchantment strip. Enchantment is removed when the last strip is removed.",
+      "fr": "Bearer may cast Dispel Magic (m) by incanting \"<i>&lt;Joueur&gt; tu es dissipé.</i>\" and removing an enchantment strip. Enchantment is removed when the last strip is removed."
+      }
   },
   "necromancer": {
     "name": "Necromancer",
@@ -1483,7 +1860,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "All abilities purchased in the Death School become Charge x3. You may have a combined total of five <a href=\"/spells/u#undeadminion\" data-ajax=\"false\">Undead Minion</a> Enchantments",
+    "e": {
+      "en": "All abilities purchased in the Death School become Charge x3. You may have a combined total of five <a href=\"/spells/u#undeadminion\" data-ajax=\"false\">Undead Minion</a> Enchantments"
+      },
     "l": "You may not purchase any abilities from the Protection School"
   },
   "persistent": {
@@ -1495,9 +1874,13 @@
     },
     "t": "Meta-Magic",
     "s": "Neutral",
-    "i": "\"Persistent\"",
-    "if": "\"Permanent\"",
-    "e": "Enchantment returns with the user after respawning until it has been otherwise removed",
+    "i": {
+      "en":"\"Persistent\"",
+      "fr": "\"Permanent\""
+    },
+    "e": {
+      "en": "Enchantment returns with the user after respawning until it has been otherwise removed"
+      },
     "n": "Persistent enchantments with limited uses (Mass Healing, Corrosive Mist, etc.) will retain the number of uses they had remaining. Persistent Magic Armor behaves like normal armor: it will be repaired upon Respawning or retain any prior damage if the bearer is returned to life by some other method, such as Resurrect"
   },
   "phasearrow": {
@@ -1508,10 +1891,14 @@
     },
     "t": "Specialty Arrow",
     "s": "Sorcery",
-    "i": "\"Phase Arrow\"",
-    "if": "\"Flèche de phase\"",
+    "i": {
+      "en":"\"Phase Arrow\"",
+      "fr": "\"Flèche de phase\""
+    },
     "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with gray cover labeled ‘Phase'",
-    "e": "This arrow is Phasing"
+    "e": {
+      "en": "This arrow is Phasing"
+      }
   },
   "phasebolt": {
     "name": "Phase Bolt",
@@ -1521,10 +1908,14 @@
     },
     "t": "Magic Ball",
     "s": "Sorcery",
-    "i": "\"The power of sorcery is mine to evoke\" x3",
-    "if": "\"J'invoque la puissance arcane de la sorcellerie\" x3",
+    "i": {
+      "en":"\"The power of sorcery is mine to evoke\" x3",
+      "fr": "\"J'invoque la puissance arcane de la sorcellerie\" x3"
+    },
     "m": "Gray Magic Ball",
-    "e": "This Magic Ball is Phasing. Additionally, will have one of the following effects:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a><br>3. A player hit receives a Wound in that hit location"
+    "e": {
+      "en": "This Magic Ball is Phasing. Additionally, will have one of the following effects:<br>1. A weapon hit is destroyed<br>2. Armor hit with Armor Points remaining is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a><br>3. A player hit receives a Wound in that hit location"
+      }
   },
   "phoenixtears": {
     "name": "Phoenix Tears",
@@ -1536,10 +1927,14 @@
     "t": "Enchantment",
     "s": "Spirit",
     "r": "Other",
-    "i": "\"May the tears of the phoenix wash over thee\" x3",
-    "if": "\"Que les larmes du phénix déferlent sur toi\" x3",
+    "i": {
+      "en":"\"May the tears of the phoenix wash over thee\" x3",
+      "fr": "\"Que les larmes du phénix déferlent sur toi\" x3"
+    },
     "m": "Two White Strips",
-    "e": "Enchanted player does not die as normal. When the player would otherwise die they instead remove a strip and become <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 30 seconds. When the Frozen State is ended the bearer has:<br>1. All Wounds removed<br>2. All States removed that are removed by Death or Respawning<br>3. All ongoing effects with a timer are expired<br>4. All of their carried or worn equipment is fully repaired<br>5. All other enchantments, except those which are Persistent, are removed<br>Additionally Phoenix Tears allows you to wear an extra Enchantment from the Protection School. This extra enchantment is considered Persistent as long as Phoenix Tears is present. The additional Enchantment is not removed once Phoenix Tears is removed",
+    "e": {
+      "en": "Enchanted player does not die as normal. When the player would otherwise die they instead remove a strip and become <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 30 seconds. When the Frozen State is ended the bearer has:<br>1. All Wounds removed<br>2. All States removed that are removed by Death or Respawning<br>3. All ongoing effects with a timer are expired<br>4. All of their carried or worn equipment is fully repaired<br>5. All other enchantments, except those which are Persistent, are removed<br>Additionally Phoenix Tears allows you to wear an extra Enchantment from the Protection School. This extra enchantment is considered Persistent as long as Phoenix Tears is present. The additional Enchantment is not removed once Phoenix Tears is removed"
+      },
     "n": "Phoenix Tears is removed when the last strip is removed"
   },
   "pinningarrow": {
@@ -1551,10 +1946,14 @@
     },
     "t": "Specialty Arrow",
     "s": "Sorcery",
-    "i": "\"Pinning Arrow\"",
-    "if": "\"Flèche immobilisante\"",
+    "i": {
+      "en":"\"Pinning Arrow\"",
+      "fr": "\"Flèche immobilisante\""
+    },
     "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with yellow head cover labeled ‘Pinning'",
-    "e": "A player struck by this <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">arrow</a> is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> for 30 seconds. Engulfing"
+    "e": {
+      "en": "A player struck by this <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">arrow</a> is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> for 30 seconds. Engulfing"
+      }
   },
   "planargrounding": {
     "name": "Planar Grounding",
@@ -1565,9 +1964,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "20'",
-    "i": "\"My power closes the aether to you\" x3",
-    "if": "\"Ma puissance te barre l'accès à l'éther\" x3",
-    "e": "Target player has their <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> State removed and may not become Insubstantial for 30 seconds. May be cast on players who are not currently Insubstantial",
+    "i": {
+      "en":"\"My power closes the aether to you\" x3",
+      "fr": "\"Ma puissance te barre l'accès à l'éther\" x3"
+    },
+    "e": {
+      "en": "Target player has their <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> State removed and may not become Insubstantial for 30 seconds. May be cast on players who are not currently Insubstantial"
+      },
     "n": "Planar Grounding causes Enchantments that automatically render their bearer <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>, such as <a href=\"/spells/u#undeadminion\" data-ajax=\"false\">Undead Minion</a>, to fail and be removed if they activate while Planar Grounding is in effect"
   },
   "poison": {
@@ -1582,9 +1985,13 @@
     "s": "Death",
     "m": "Red Strip",
     "r": "Other",
-    "i": "\"I coat these weapons with a deadly poison\" x2",
-    "if": "\"J'applique un poison mortel et silencieux\" x2",
-    "e": "The next wound dealt by the bearer with a wielded melee weapon is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>",
+    "i": {
+      "en":"\"I coat these weapons with a deadly poison\" x2",
+      "fr": "\"J'applique un poison mortel et silencieux\" x2"
+    },
+    "e": {
+      "en": "The next wound dealt by the bearer with a wielded melee weapon is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>"
+      },
     "n": "If the target does not actually receive a wound, e.g. by a Resistance, Poison is not expended."
   },
   "poisonarrow": {
@@ -1596,10 +2003,14 @@
     },
     "t": "Specialty Arrow",
     "s": "Death",
-    "i": "\"Poison Arrow\"",
-    "if": "\"Flèche Empoisonnée\"",
+    "i": {
+      "en":"\"Poison Arrow\"",
+      "fr": "\"Flèche Empoisonnée\""
+    },
     "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with green head cover labeled ‘Poison'",
-    "e": "This arrow is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>"
+    "e": {
+      "en": "This arrow is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Wounds Kill</a>"
+      }
   },
   "poisonglands": {
     "name": "Poison Glands",
@@ -1610,10 +2021,14 @@
     "t": "Enchantment",
     "s": "Death",
     "r": "Other",
-    "i": "\"Thou shalt secrete poison from thy venemous glands\" x3",
-    "if": "\"Tu produiras du poison par ces glandes toxiques\" x3",
+    "i": {
+      "en":"\"Thou shalt secrete poison from thy venemous glands\" x3",
+      "fr": "\"Tu produiras du poison par ces glandes toxiques\" x3"
+    },
     "m": "Red Strip",
-    "e": "Bearer gains self-only <a href=\"/spells/p#poison\" data-ajax=\"false\">Poison</a> (ex) 1/Refresh Charge x3"
+    "e": {
+      "en": "Bearer gains self-only <a href=\"/spells/p#poison\" data-ajax=\"false\">Poison</a> (ex) 1/Refresh Charge x3"
+      }
   },
   "priest": {
     "name": "Priest",
@@ -1623,7 +2038,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Meta-magic may only be used on Spirit magics. All Meta-Magics purchased become 1/Life Charge x3. <a href=\"/spells/h#heal\" data-ajax=\"false\">Heal</a> costs zero points"
+    "e": {
+      "en": "Meta-magic may only be used on Spirit magics. All Meta-Magics purchased become 1/Life Charge x3. <a href=\"/spells/h#heal\" data-ajax=\"false\">Heal</a> costs zero points"
+      }
   },
   "protectionfrommagic": {
     "name": "Protection from Magic",
@@ -1636,10 +2053,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other (Paladin: Touch)",
-    "i": "\"I enchant thee with protection from magic\" x3",
-    "if": "\"Je t'enchante d'une protection contre la magie\" x3",
+    "i": {
+      "en":"\"I enchant thee with protection from magic\" x3",
+      "fr": "\"Je t'enchante d'une protection contre la magie\" x3"
+    },
     "m": "White Strip",
-    "e": "Bearer is unaffected by Magical abilities from any school. Upon death the player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>",
+    "e": {
+      "en": "Bearer is unaffected by Magical abilities from any school. Upon death the player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>"
+      },
     "n": "This effect does not interact with other Enchantments worn by the bearer."
   },
   "protectionfromprojectiles": {
@@ -1651,10 +2072,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"I enchant thee with Protection from Projectiles\" x3",
-    "if": "\"Je t'enchante d'une protection contre les projectiles\" x3",
+    "i": {
+      "en":"\"I enchant thee with Protection from Projectiles\" x3",
+      "fr": "\"Je t'enchante d'une protection contre les projectiles\" x3"
+    },
     "m": "White Strip",
-    "e": "Bearer is unaffected by <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">ammunition</a>, thrown <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">javelins</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">rocks</a>, and <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">throwing weapons</a>. Engulfing effects from those objects, such as Pinning Arrow, do not affect the player",
+    "e": {
+      "en": "Bearer is unaffected by <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">ammunition</a>, thrown <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">javelins</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">rocks</a>, and <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">throwing weapons</a>. Engulfing effects from those objects, such as Pinning Arrow, do not affect the player"
+      },
     "n": "Equipment can still be affected by the above. Does not protect bearer against Magic Balls"
   },
   "pyrotechnics": {
@@ -1666,9 +2091,13 @@
     "t": "Verbal",
     "s": "Flame",
     "r": "50",
-    "i": "\"I call upon the element of flame to destroy thy belongings\" x3",
-    "if": "\"Que l'élément du feu incendiaire détruise tes armes et boucliers\" x3",
-    "e": "All shields and weapons carried or worn by the target player are destroyed",
+    "i": {
+      "en":"\"I call upon the element of flame to destroy thy belongings\" x3",
+      "fr": "\"Que l'élément du feu incendiaire détruise tes armes et boucliers\" x3"
+    },
+    "e": {
+      "en": "All shields and weapons carried or worn by the target player are destroyed"
+      },
     "l": "Only affects shields and weapons carried or worn when the Verbal is completed",
     "n": "Pyrotechnics targets the player but affects their equipment. Immunities, resistances, and other protections will only protect the equipment from Pyrotechnics if they specifically extend to the equipment, such as Blessed Aura or Flame Blade. Abilities like Enlightened Soul, Protection from Magic, and Adaptive Protection (Flame) do not extend to equipment and thus cannot protect from Pyrotechnics"
   },
@@ -1681,9 +2110,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Self",
-    "i": "\"I am filled with rage!\"",
-    "if": "\"Je suis fou de rage!\"",
-    "e": "Caster is unaffected by Verbal abilities and their wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a> for seven seconds. Caster must count this time out loud, audible to 50'; failure to count ends the effect."
+    "i": {
+      "en":"\"I am filled with rage!\"",
+      "fr": "\"Je suis fou de rage!\""
+    },
+    "e": {
+      "en": "Caster is unaffected by Verbal abilities and their wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Crushing</a> and <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a> for seven seconds. Caster must count this time out loud, audible to 50'; failure to count ends the effect."
+      }
   },
   "raider": {
     "name": "Raider",
@@ -1693,7 +2126,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Gain <a href=\"/spells/b#bearstrength\" data-ajax=\"false\">Bear Strength</a> (Self) 1/Life (ex). Look the Part becomes an additional use of <a href=\"/spells/b#brutalstrike\" data-ajax=\"false\">Brutal Strike</a>.",
+    "e": {
+      "en": "Gain <a href=\"/spells/b#bearstrength\" data-ajax=\"false\">Bear Strength</a> (Self) 1/Life (ex). Look the Part becomes an additional use of <a href=\"/spells/b#brutalstrike\" data-ajax=\"false\">Brutal Strike</a>."
+      },
     "l": "Lose all instances of <a href=\"/spells/r#rage\" data-ajax=\"false\">Rage</a>"
   },
   "raisedead": {
@@ -1705,9 +2140,13 @@
     "t": "Verbal",
     "s": "Death",
     "r": "Touch*",
-    "i": "\"Rise and fight again\" x5",
-    "if": "\"Retourne au combat\" x5",
-    "e": "Target Dead player who has not moved more than 5' from where they died is returned to life and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Target is also <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds. Non-Persistent Enchantments on the player are removed before the player returns to life. Any Wounds on the player are healed."
+    "i": {
+      "en":"\"Rise and fight again\" x5",
+      "fr": "\"Retourne au combat\" x5"
+    },
+    "e": {
+      "en": "Target Dead player who has not moved more than 5' from where they died is returned to life and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Target is also <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds. Non-Persistent Enchantments on the player are removed before the player returns to life. Any Wounds on the player are healed."
+      }
   },
   "ranger": {
     "name": "Ranger",
@@ -1717,7 +2156,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "The cost of all available Equipment is reduced to zero points. May use <a href=\"/weapons/#Bow\" data-ajax=\"false\">bows</a>. The cost of all Enchantments is doubled"
+    "e": {
+      "en": "The cost of all available Equipment is reduced to zero points. May use <a href=\"/weapons/#Bow\" data-ajax=\"false\">bows</a>. The cost of all Enchantments is doubled"
+      }
   },
   "ravage": {
     "name": "Ravage",
@@ -1728,9 +2169,13 @@
     "t": "Verbal",
     "s": "Death",
     "r": "20'",
-    "i": "\"Death shall make thee fragile\" x3",
-    "if": "\"La mort te rend fragile\" x3",
-    "e": "Target player is <a href=\"/states/#Fragile\" data-ajax=\"false\">Fragile</a>"
+    "i": {
+      "en":"\"Death shall make thee fragile\" x3",
+      "fr": "\"La mort te rend fragile\" x3"
+    },
+    "e": {
+      "en": "Target player is <a href=\"/states/#Fragile\" data-ajax=\"false\">Fragile</a>"
+      }
   },
   "regeneration": {
     "name": "Regeneration",
@@ -1741,10 +2186,14 @@
     "t": "Enchantment",
     "s": "Spirit",
     "r": "Other",
-    "i": "\"I grant thee the power of regeneration\" x3",
-    "if": "\"Je t'offre le pouvoir de la régénération\" x3",
+    "i": {
+      "en":"\"I grant thee the power of regeneration\" x3",
+      "fr": "\"Je t'offre le pouvoir de la régénération\" x3"
+    },
     "m": "Yellow Strip",
-    "e": "Bearer gains <a href=\"/spells/h#heal\" data-ajax=\"false\">Heal</a> (Self) Unlimited (m) (<a href=\"/spells/s#swift\" data-ajax=\"false\">Swift</a>)",
+    "e": {
+      "en": "Bearer gains <a href=\"/spells/h#heal\" data-ajax=\"false\">Heal</a> (Self) Unlimited (m) (<a href=\"/spells/s#swift\" data-ajax=\"false\">Swift</a>)"
+      },
     "l": "The Heal granted by Regeneration may not be used within 10' of a living enemy",
     "n": "Bearer must state Swift normally"
   },
@@ -1761,9 +2210,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Touch",
-    "i": "\"From thy bindings thou art released\" x5",
-    "if": "\"Je te libère de tes entraves\" x5",
-    "e": "A single ongoing effect or State is removed from the target. Casters choice",
+    "i": {
+      "en":"\"From thy bindings thou art released\" x5",
+      "fr": "\"Je te libère de tes entraves\" x5"
+    },
+    "e": {
+      "en": "A single ongoing effect or State is removed from the target. Casters choice"
+      },
     "l": "Cannot remove <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. When used to end a State or Ongoing Effect imposed by a magic or ability with multiple effects, all other States and Ongoing Effects from the same source are also ended"
   },
   "reload": {
@@ -1775,9 +2228,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Self",
-    "i": "\"I nocked my arrows to my bow, I let them fly, my quiver is low. Now I pause to go reload.\" x3",
-    "if": "\"J'ai encoché mes flèches à mon arc, j'ai tiré, mon carquois est vide. Je m'arrête pour le remplir.\" x3",
-    "e": "Player becomes <a href=\"/states/#OutOfGame\" data-ajax=\"false\">Invulnerable</a> and may move about the field retrieving their arrows. The player may remove their Invulnerable state in the location they started or at base by stating, \"I return with a full quiver\" x3",
+    "i": {
+      "en":"\"I nocked my arrows to my bow, I let them fly, my quiver is low. Now I pause to go reload.\" x3",
+      "fr": "\"J'ai encoché mes flèches à mon arc, j'ai tiré, mon carquois est vide. Je m'arrête pour le remplir.\" x3"
+    },
+    "e": {
+      "en": "Player becomes <a href=\"/states/#OutOfGame\" data-ajax=\"false\">Invulnerable</a> and may move about the field retrieving their arrows. The player may remove their Invulnerable state in the location they started or at base by stating, \"I return with a full quiver\" x3"
+      },
     "l": "Must stay at least 10' away from other players at all times <br>A player may not exit Reload at an alternate base location, such as Heart of the Swarm, in this way.",
     "n": "May ask reeve for assistance in retrieving arrows that are within 10' of other players"
   },
@@ -1790,9 +2247,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Other",
-    "i": "\"I restore thee to thy full potency\"",
-    "if": "\"Ta puissance initiale est renouvelée\"",
-    "e": "Player has all uses of their per-life Magic and Abilities restored",
+    "i": {
+      "en":"\"I restore thee to thy full potency\"",
+      "fr": "\"Ta puissance initiale est renouvelée\""
+    },
+    "e": {
+      "en": "Player has all uses of their per-life Magic and Abilities restored"
+      },
     "l": "Does not function on Empower, Confidence, or Restoration"
   },
   "resurrect": {
@@ -1806,9 +2267,13 @@
     "t": "Verbal",
     "s": "Spirit",
     "r": "Touch",
-    "i": "<br>Sword Cut, spear stab, mace smash, arrow jab,<br>Let the white light of healing descend on thee<br>Let the white light of healing stop thy spilling blood<br>Let the white light of healing mend thy bones<br>Let the white light of healing close thy wounds.<br>Let the white light of healing restore thy vigor.<br>The white light of healing hath resurrected thee.",
-    "if": "<br>Épée coupe, lance perce, masse casse, fléche pique,<br>Que la lumière de la vie descende sur toi.<br>Que la lumière de la vie coagule ton sang.<br>Que la lumière de la vie te ressoude.<br>Que la lumière de la vie te suture. <br>Que la lumière de la vie te redonne vigueur.<br>La lumière de la vie t'offre la résurrection.",
-    "e": "Target Dead player who has not moved from where they died is returned to life. Non-Persistent Enchantments on the player are removed before the player returns to life. Any Wounds on the player are healed"
+    "i": {
+      "en":"<br>Sword Cut, spear stab, mace smash, arrow jab,<br>Let the white light of healing descend on thee<br>Let the white light of healing stop thy spilling blood<br>Let the white light of healing mend thy bones<br>Let the white light of healing close thy wounds.<br>Let the white light of healing restore thy vigor.<br>The white light of healing hath resurrected thee.",
+      "fr": "<br>Épée coupe, lance perce, masse casse, fléche pique,<br>Que la lumière de la vie descende sur toi.<br>Que la lumière de la vie coagule ton sang.<br>Que la lumière de la vie te ressoude.<br>Que la lumière de la vie te suture. <br>Que la lumière de la vie te redonne vigueur.<br>La lumière de la vie t'offre la résurrection."
+    },
+    "e": {
+      "en": "Target Dead player who has not moved from where they died is returned to life. Non-Persistent Enchantments on the player are removed before the player returns to life. Any Wounds on the player are healed"
+      }
   },
   "rogue": {
     "name": "Rogue",
@@ -1818,7 +2283,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Regain a use of <a href=\"/spells/c#coupdegrace\" data-ajax=\"false\">Coup de Grace</a> upon killing a player with a thrown weapon.",
+    "e": {
+      "en": "Regain a use of <a href=\"/spells/c#coupdegrace\" data-ajax=\"false\">Coup de Grace</a> upon killing a player with a thrown weapon."
+      },
     "l": "May not wield Long Weapons or Bows."
   },
   "sacredblades": {
@@ -1830,10 +2297,14 @@
     "t": "Enchantment",
     "s": "Sorcery",
     "r": "Self",
-    "i": "\"I sanctify these weapons to smite the wicked\" x2",
-    "if": "\"Je consacre ces armes pour châtier les félons\" x2",
+    "i": {
+      "en":"\"I sanctify these weapons to smite the wicked\" x2",
+      "fr": "\"Je consacre ces armes pour châtier les félons\" x2"
+    },
     "m": "White strip and Red strip",
-    "e": "Bearer's wielded weapons are affected as per Harden. Bearer's wielded melee weapons ignore magic armor and resistances that prevent wounds"
+    "e": {
+      "en": "Bearer's wielded weapons are affected as per Harden. Bearer's wielded melee weapons ignore magic armor and resistances that prevent wounds"
+      }
   },
   "sanctuary": {
     "name": "Sanctuary",
@@ -1844,9 +2315,14 @@
     "t": "Verbal",
     "s": "Protection",
     "r": "Self",
-    "i": "\"Sanctuary\"",
-    "if": "\"Asile\"",
-    "e": "Player and their carried equipment are unaffected by hostile actions originating from within 20'. Must Chant \"sanctuary\" (fr: \"asile\"). Player may end Sanctuary at any time by ceasing to chant and declaring \"No longer in sanctuary\" or by by picking up a weapon with their hand.",
+    "i": {
+      "en":"\"Sanctuary\"",
+      "fr": "\"Asile\""
+    },
+    "e": {
+      "en": "Player and their carried equipment are unaffected by hostile actions originating from within 20'. Must Chant \"sanctuary\", Player may end Sanctuary at any time by ceasing to chant and declaring \"No longer in sanctuary\" or by by picking up a weapon with their hand.",
+      "fr": "Player and their carried equipment are unaffected by hostile actions originating from within 20'. Must Chant \"asile\". Player may end Sanctuary at any time by ceasing to chant and declaring \"No longer in sanctuary\" or by by picking up a weapon with their hand."
+      },
     "l": "If the player is voluntarily touching (other than blocking) or carrying weapons in any fashion (tucked under arms, tied to thongs, etc) at any point during Sanctuary then they may only voluntarily end Sanctuary within 20' of a friendly base, and must continue chanting until there. Player may not cast this ability while they have any weapons in hand. Cannot interact with game items nor game objectives, nor impede the play of other people in any manner, and must immediately move to avoid such situations. May not come within 20' of a non-friendly base",
     "n": "The exit declaration must be audible out to 20 feet"
   },
@@ -1859,9 +2335,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Self",
-    "i": "\"Scavenge\"",
-    "if": "\"Récupéré\"",
-    "e": "Destroyed or damaged item is repaired, or one point of armor in one location is repaired.",
+    "i": {
+      "en":"\"Scavenge\"",
+      "fr": "\"Récupéré\""
+    },
+    "e": {
+      "en": "Destroyed or damaged item is repaired, or one point of armor in one location is repaired."
+      },
     "l": "<a href=\"/spells/definitions#killtrigger\" data-ajax=\"false\">Kill Trigger</a>"
   },
   "severspirit": {
@@ -1874,9 +2354,13 @@
     "t": "Verbal",
     "s": "Spirit",
     "r": "20'",
-    "i": "\"The spirits lay a curse on thee.\" x3",
-    "if": "\"Les esprits maudissent ta dépouille\" x3",
-    "e": "May only target dead players. Player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Any Enchantments on the player are removed",
+    "i": {
+      "en":"\"The spirits lay a curse on thee.\" x3",
+      "fr": "\"Les esprits maudissent ta dépouille\" x3"
+    },
+    "e": {
+      "en": "May only target dead players. Player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Any Enchantments on the player are removed"
+      },
     "n": "Will always remove enchantments if successfully cast on a valid target, regardless of the player's Traits, States, Immunities, Ongoing Effects, or Enchantments"
   },
   "shadowstep": {
@@ -1889,9 +2373,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Self",
-    "i": "\"I step into the shadows\"",
-    "if": "\"Je prends un grand pas dans l'ombre\"",
-    "e": "Player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. Shadow Step may be cast while moving.",
+    "i": {
+      "en":"\"I step into the shadows\"",
+      "fr": "\"Je prends un grand pas dans l'ombre\""
+    },
+    "e": {
+      "en": "Player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a>. Shadow Step may be cast while moving."
+      },
     "n": "Caster may end this <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> state at any time by using the exit incantation for Insubstantial"
   },
   "shakeitoff": {
@@ -1903,9 +2391,13 @@
     "t": "Verbal",
     "s": "Spirit",
     "r": "Self",
-    "i": "\"I shall overcome\"",
-    "if": "\"Je vais surmonter\"",
-    "e": "10 seconds after casting Shake It Off the player may remove from themselves any number of States or Ongoing Effects of their choice. Shake It Off may be cast at any time the player is alive, even while the player would otherwise be prevented from casting abilities by <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a>, <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a>, or similar"
+    "i": {
+      "en":"\"I shall overcome\"",
+      "fr": "\"Je vais surmonter\""
+    },
+    "e": {
+      "en": "10 seconds after casting Shake It Off the player may remove from themselves any number of States or Ongoing Effects of their choice. Shake It Off may be cast at any time the player is alive, even while the player would otherwise be prevented from casting abilities by <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a>, <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a>, or similar"
+      }
   },
   "shatter": {
     "name": "Shatter",
@@ -1916,9 +2408,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "20'",
-    "i": "\"My power shatters thy body\" x3",
-    "if": "\"Ma puissance éclate ton corps froid\" x3",
-    "e": "Target <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> player dies"
+    "i": {
+      "en":"\"My power shatters thy body\" x3",
+      "fr": "\"Ma puissance éclate ton corps froid\" x3"
+    },
+    "e": {
+      "en": "Target <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> player dies"
+      }
   },
   "shatterweapon": {
     "name": "Shatter Weapon",
@@ -1929,9 +2425,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "20'",
-    "i": "\"My power destroys thy [type of weapon]\" x3",
-    "if": "\"Ma puissance détruit ton [type d'arme]\" x3",
-    "e": "Target weapon is destroyed",
+    "i": {
+      "en":"\"My power destroys thy [type of weapon]\" x3",
+      "fr": "\"Ma puissance détruit ton [type d'arme]\" x3"
+    },
+    "e": {
+      "en": "Target weapon is destroyed"
+      },
     "n": "The equipment, not the person, is the target of Shatter Weapon. The equipment is the only thing required to be within range and visible for this spell to affect it"
   },
   "shove": {
@@ -1945,9 +2445,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "20'",
-    "i": "\"My power shoves thee\" x3",
-    "if": "\"Ma puissance te pousse\" x3",
-    "e": "Target player is moved back 20' in a straight line away from the caster. Works on <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> players"
+    "i": {
+      "en":"\"My power shoves thee\" x3",
+      "fr": "\"Ma puissance te pousse\" x3"
+    },
+    "e": {
+      "en": "Target player is moved back 20' in a straight line away from the caster. Works on <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> players"
+      }
   },
   "silvertongue": {
     "name": "Silver Tongue",
@@ -1958,10 +2462,14 @@
     "t": "Enchantment",
     "s": "Sorcery",
     "r": "Touch",
-    "i": "\"My power quickens thine\" x3",
-    "if": "\"Ma puissance t'accélère\" x3",
+    "i": {
+      "en":"\"My power quickens thine\" x3",
+      "fr": "\"Ma puissance t'accélère\" x3"
+    },
     "m": "Yellow Strip",
-    "e": "Bearer gains <a href=\"/spells/s#swift\" data-ajax=\"false\">Swift</a> 1/refresh Charge x3. Other sources of Swift may not be utilized while Silver Tongue is worn",
+    "e": {
+      "en": "Bearer gains <a href=\"/spells/s#swift\" data-ajax=\"false\">Swift</a> 1/refresh Charge x3. Other sources of Swift may not be utilized while Silver Tongue is worn"
+      },
     "n": "Does not use up any purchased instances of Swift"
   },
   "sleightofmind": {
@@ -1973,10 +2481,14 @@
     "t": "Enchantment",
     "s": "Sorcery",
     "r": "Other",
-    "i": "\"May thy power remain\" x3",
-    "if": "\"Que ton pouvoir demeure\" x3",
+    "i": {
+      "en":"\"May thy power remain\" x3",
+      "fr": "\"Que ton pouvoir demeure\" x3"
+    },
     "m": "Yellow Strip",
-    "e": "Enchantments worn by the bearer, other than Sleight of Mind, are not removed by Dispel Magic or similar Magic and Abilities. Does not count towards the bearer's Enchantment Limit"
+    "e": {
+      "en": "Enchantments worn by the bearer, other than Sleight of Mind, are not removed by Dispel Magic or similar Magic and Abilities. Does not count towards the bearer's Enchantment Limit"
+      }
   },
   "snaringvines": {
     "name": "Snaring Vines",
@@ -1987,10 +2499,15 @@
     "t": "Enchantment",
     "s": "Command",
     "r": "Self",
-    "i": "\"The hands of the earth rise to your bidding\" x3",
-    "if": "\"Les mains telluriques se lèvent et m'obéissent\" x3",
+    "i": {
+      "en":"\"The hands of the earth rise to your bidding\" x3",
+      "fr": "\"Les mains telluriques se lèvent et m'obéissent\" x3"
+    },
     "m": "Three Red Strips",
-    "e": "Bearer may cast <a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a> (m) by incanting \"&lt;Player&gt; stop at my command.\" (fr: \"&lt;Joueur&gt; stop, je te l'ordonne.\") and removing an enchantment strip. Enchantment is removed when the last strip is removed."
+    "e": {
+      "en": "Bearer may cast <a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a> (m) by incanting \"&lt;Player&gt; stop at my command.\" and removing an enchantment strip. Enchantment is removed when the last strip is removed.",
+      "fr": "Bearer may cast <a href=\"/spells/h#holdperson\" data-ajax=\"false\">Hold Person</a> (m) by incanting \"&lt;Joueur&gt; stop, je te l'ordonne.\" and removing an enchantment strip. Enchantment is removed when the last strip is removed."
+      }
   },
   "sniper": {
     "name": "Sniper",
@@ -2000,7 +2517,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "May physically carry any number of Specialty Arrows of each type. The frequency of each type of Specialty Arrow ability becomes 1 Arrow/Life Charge x3. Gain <a href=\"/spells/m#momentum\" data-ajax=\"false\">Momentum</a> Unlimited (ex) (Ambulant). Look the Part becomes <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> 1/Life.",
+    "e": {
+      "en": "May physically carry any number of Specialty Arrows of each type. The frequency of each type of Specialty Arrow ability becomes 1 Arrow/Life Charge x3. Gain <a href=\"/spells/m#momentum\" data-ajax=\"false\">Momentum</a> Unlimited (ex) (Ambulant). Look the Part becomes <a href=\"/spells/m#mend\" data-ajax=\"false\">Mend</a> 1/Life."
+      },
     "l": "May not fire normal arrows."
   },
   "songofbattle": {
@@ -2012,10 +2531,15 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Self",
-    "i": "\"I sing of my legendary prowess\"",
-    "if": "\"Je chante mes prouesses martiales légendaires\"",
+    "i": {
+      "en":"\"I sing of my legendary prowess\"",
+      "fr": "\"Je chante mes prouesses martiales légendaires\""
+    },
     "m": "No strip required",
-    "e": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer must Chant \"Song of Battle\" (fr: \"Chant de combat\") or sing a song regarding their martial prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+    "e": {
+      "en": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer must Chant \"Song of Battle\"  or sing a song regarding their martial prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+      "fr": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer must Chant \"Chant de combat\" or sing a song regarding their martial prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+      }
   },
   "songofdeflection": {
     "name": "Song of Deflection",
@@ -2026,10 +2550,15 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Self",
-    "i": "\"I sing of my nimble acrobatics\"",
-    "if": "\"Je chante mes acrobaties de voltige\"",
+    "i": {
+      "en":"\"I sing of my nimble acrobatics\"",
+      "fr": "\"Je chante mes acrobaties de voltige\""
+    },
     "m": "No strip required",
-    "e": "Bearer is unaffected by <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">ammunition</a>, thrown <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">Javelins</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">Rocks</a>, and <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">thrown weapons</a>. Engulfing effects from those objects, such as Pinning Arrow, do not affect the player. Bearer must Chant \"Song of Deflection\" (fr: \"Chant d'esquive\") or sing a song of their acrobatic prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+    "e": {
+      "en": "Bearer is unaffected by <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">ammunition</a>, thrown <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">Javelins</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">Rocks</a>, and <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">thrown weapons</a>. Engulfing effects from those objects, such as Pinning Arrow, do not affect the player. Bearer must Chant \"Song of Deflection\" or sing a song of their acrobatic prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+      "fr": "Bearer is unaffected by <a href=\"/weapons/#Ammunition\" data-ajax=\"false\">ammunition</a>, thrown <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">Javelins</a>, <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">Rocks</a>, and <a href=\"/weapons/#Projectiles\" data-ajax=\"false\">thrown weapons</a>. Engulfing effects from those objects, such as Pinning Arrow, do not affect the player. Bearer must Chant \"Chant d'esquive\" or sing a song of their acrobatic prowess. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+      },
     "n": "Does not protect the bearer against Magic Balls."
   },
   "songofdetermination": {
@@ -2041,10 +2570,15 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Self",
-    "i": "\"I sing of my unwavering determination\"",
-    "if": "\"Je chante ma détermination forte et infaillible\"",
+    "i": {
+      "en":"\"I sing of my unwavering determination\"",
+      "fr": "\"Je chante ma détermination forte et infaillible\""
+    },
     "m": "No strip required",
-    "e": "Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Command. Bearer must Chant \"Song of Determination\" (fr: \"Chant de détermination\") or sing a song regarding their determination. Singing in place of the normal Chant is still a Chant and must follow all Chant rules."
+    "e": {
+      "en": "Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Command. Bearer must Chant \"Song of Determination\" or sing a song regarding their determination. Singing in place of the normal Chant is still a Chant and must follow all Chant rules.",
+      "fr": "Bearer is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Command. Bearer must Chant \"Chant de détermination\" or sing a song regarding their determination. Singing in place of the normal Chant is still a Chant and must follow all Chant rules."
+      }
   },
   "songoffreedom": {
     "name": "Song of Freedom",
@@ -2055,10 +2589,15 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Self",
-    "i": "\"I sing of my unquenchable wanderlust\"",
-    "if": "\"Je chante mon envie de voyager sans fin\"",
+    "i": {
+      "en":"\"I sing of my unquenchable wanderlust\"",
+      "fr": "\"Je chante mon envie de voyager sans fin\""
+    },
     "m": "No strip required",
-    "e": "Bearer can not receive the States <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>, <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a>, or <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> unless caused by the bearer or other enchantments they carry. Bearer must Chant \"Song of Freedom\" (fr: \"Chant de liberté\") or sing a song of roving or rambling. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+    "e": {
+      "en": "Bearer can not receive the States <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>, <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a>, or <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> unless caused by the bearer or other enchantments they carry. Bearer must Chant \"Song of Freedom\"  or sing a song of roving or rambling. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+      "fr": "Bearer can not receive the States <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>, <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a>, or <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> unless caused by the bearer or other enchantments they carry. Bearer must Chant \"Chant de liberté\" or sing a song of roving or rambling. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+      }
   },
   "songofinterference": {
     "name": "Song of Interference",
@@ -2069,10 +2608,15 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Self",
-    "i": "\"I sing a song of dark magic thwarted\"",
-    "if": "\"Je chante une chanson de magie déjouée\"",
+    "i": {
+      "en":"\"I sing a song of dark magic thwarted\"",
+      "fr": "\"Je chante une chanson de magie déjouée\""
+    },
     "m": "No strip required",
-    "e": "As per <a href=\"/spells/e#enlightenedsoul\" data-ajax=\"false\">Enlightened Soul</a>. Bearer must Chant \"Song of Interference\" (fr: \"Chant d'interférence\") or sing a song about defeating/resisting the forces of magic. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+    "e": {
+      "en": "As per <a href=\"/spells/e#enlightenedsoul\" data-ajax=\"false\">Enlightened Soul</a>. Bearer must Chant \"Song of Interference\" or sing a song about defeating/resisting the forces of magic. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+      "fr": "As per <a href=\"/spells/e#enlightenedsoul\" data-ajax=\"false\">Enlightened Soul</a>. Bearer must Chant \"Chant d'interférence\" or sing a song about defeating/resisting the forces of magic. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+      }
   },
   "songofpower": {
     "name": "Song of Power",
@@ -2083,10 +2627,15 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Self",
-    "i": "\"I sing to inspire my comrades-in-arms\"",
-    "if": "\"Je chante pour inspirer mes compagnons d'arme\"",
+    "i": {
+      "en":"\"I sing to inspire my comrades-in-arms\"",
+      "fr": "\"Je chante pour inspirer mes compagnons d'arme\""
+    },
     "m": "No strip required",
-    "e": "Friendly players within 20' of the bearer have their Charging Incantation repetitions divided by 2, rounded down, to a minimum of 1. Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Bearer must Chant \"Song of Power\" (fr: \"Chant de force\") or sing an inspiring song. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+    "e": {
+      "en": "Friendly players within 20' of the bearer have their Charging Incantation repetitions divided by 2, rounded down, to a minimum of 1. Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Bearer must Chant \"Song of Power\" or sing an inspiring song. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+      "fr": "Friendly players within 20' of the bearer have their Charging Incantation repetitions divided by 2, rounded down, to a minimum of 1. Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Bearer must Chant \"Chant de force\" or sing an inspiring song. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+      },
     "l": "Players can only benefit from one instance of Song of Power at a time"
   },
   "songofsurvival": {
@@ -2098,10 +2647,15 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Self",
-    "i": "\"I sing of my numerous close calls\"",
-    "if": "\"Je chante mes presqu'accidents\"",
+    "i": {
+      "en":"\"I sing of my numerous close calls\"",
+      "fr": "\"Je chante mes presqu'accidents\""
+    },
     "m": "No strip required",
-    "e": "When the bearer would otherwise die, they instead announce \"Song of Survival\" (fr: \"Chant de survie\") and become Insubstantial. The caster treats the triggering event as though it had no effect on them other than triggering Song of Survival. Song of Survival immediately ends and bearer must stop their Chant. Bearer may choose to return directly to their base immediately after Song of Survival activates. Bearer must Chant “Song of Survival” or sing a song regarding their many escapes from certain doom. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+    "e": {
+      "en": "When the bearer would otherwise die, they instead announce \"Song of Survival\" and become Insubstantial. The caster treats the triggering event as though it had no effect on them other than triggering Song of Survival. Song of Survival immediately ends and bearer must stop their Chant. Bearer may choose to return directly to their base immediately after Song of Survival activates. Bearer must Chant “Song of Survival” or sing a song regarding their many escapes from certain doom. Singing in place of the normal Chant is still a Chant and must follow all Chant rules",
+      "fr": "When the bearer would otherwise die, they instead announce \"Chant de survie\" and become Insubstantial. The caster treats the triggering event as though it had no effect on them other than triggering Song of Survival. Song of Survival immediately ends and bearer must stop their Chant. Bearer may choose to return directly to their base immediately after Song of Survival activates. Bearer must Chant “Song of Survival” or sing a song regarding their many escapes from certain doom. Singing in place of the normal Chant is still a Chant and must follow all Chant rules"
+      },
     "l": "Once Song of Survival has activated to protect the bearer it may not activate again on the same life",
     "n": "Bearer may end the <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> state caused by Song of Survival at any time with the standard Incantation. If the Insubstantial State is ended by any means before reaching the base, the rest of the effect is ended as well"
   },
@@ -2114,10 +2668,15 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Self",
-    "i": "\"I sing to entertain friend and foe\" x3",
-    "if": "\"Je chante pour amuser la galerie\" x3",
+    "i": {
+      "en":"\"I sing to entertain friend and foe\" x3",
+      "fr": "\"Je chante pour amuser la galerie\" x3"
+    },
     "m": "No strip required",
-    "e": "Bearer cannot be Wounded and is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to all schools. Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Bearer must Chant \"Song of Visit\" (fr: \"Chant de visite\") or sing a song regarding their general good nature and friendly disposition. Singing in place of the normal Chant is still a Chant and must follow all Chant rules. When Song of Visit is removed player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> and must immediately move directly to their base. Upon arrival, they must immediately end the effect as per Insubstantial",
+    "e": {
+      "en": "Bearer cannot be Wounded and is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to all schools. Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Bearer must Chant \"Song of Visit\" or sing a song regarding their general good nature and friendly disposition. Singing in place of the normal Chant is still a Chant and must follow all Chant rules. When Song of Visit is removed player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> and must immediately move directly to their base. Upon arrival, they must immediately end the effect as per Insubstantial",
+      "fr": "Bearer cannot be Wounded and is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to all schools. Bearer is <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a>. Bearer must Chant \"Chant de visite\" or sing a song regarding their general good nature and friendly disposition. Singing in place of the normal Chant is still a Chant and must follow all Chant rules. When Song of Visit is removed player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> and must immediately move directly to their base. Upon arrival, they must immediately end the effect as per Insubstantial"
+      },
     "l": "Bearer may not wield weapons, interact with game objects, impede play, gain further Enchantments, or target any player",
     "n": "This Enchantment can be removed by Dispel Magic and similar Magic and Abilities"
   },
@@ -2129,10 +2688,14 @@
     },
     "t": "Magic Ball",
     "s": "Sorcery",
-    "i": "\"The power of void is mine to evoke\" x3",
-    "if": "\"J'invoque la puissance arcane du néant\" x3",
+    "i": {
+      "en":"\"The power of void is mine to evoke\" x3",
+      "fr": "\"J'invoque la puissance arcane du néant\" x3"
+    },
     "m": "Black Magic Ball",
-    "e": "This Magic Ball is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Phasing</a> and ignores armor. Additionally, will have one of the following effects:<br>1. A weapon hit is destroyed<br>2. A shield hit is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a><br>3. A player hit dies and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>.",
+    "e": {
+      "en": "This Magic Ball is <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Phasing</a> and ignores armor. Additionally, will have one of the following effects:<br>1. A weapon hit is destroyed<br>2. A shield hit is subject to <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Shield Destroying</a><br>3. A player hit dies and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>."
+      },
     "l": "Unlike most Phasing effects, Sphere of Annihilation does not ignore Traits, such as Missile Block"
   },
   "spy": {
@@ -2143,7 +2706,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "<a href=\"/spells/b#blink\" data-ajax=\"false\">Blink</a> and <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> become Charge x3 (ex).",
+    "e": {
+      "en": "<a href=\"/spells/b#blink\" data-ajax=\"false\">Blink</a> and <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> become Charge x3 (ex)."
+      },
     "l": "May not wear Armor."
   },
   "steallifeessence": {
@@ -2157,9 +2722,13 @@
     "t": "Verbal",
     "s": "Death",
     "r": "Touch",
-    "i": "\"Steal Life\"",
-    "if": "\"Vole vie\"",
-    "e": "Caster may heal a Wound or instantly Charge an ability",
+    "i": {
+      "en":"\"Steal Life\"",
+      "fr": "\"Vole vie\""
+    },
+    "e": {
+      "en": "Caster may heal a Wound or instantly Charge an ability"
+      },
     "l": "May only be used on a dead player. That player is Cursed. Does not work on <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> players. The caster does not gain the effect if the dead player is unaffected",
     "n": "In order to charge an ability, the name of the ability being charged must still be stated immediately after the incantation."
   },
@@ -2172,9 +2741,13 @@
     "t": "Verbal",
     "s": "Protection",
     "r": "Self",
-    "i": "\"I take the form of stone\"",
-    "if": "\"Je prends une forme de roche\"",
-    "e": "Caster is <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a>. May end this State at any time by saying \"The earth release me\" x2"
+    "i": {
+      "en":"\"I take the form of stone\"",
+      "fr": "\"Je prends une forme de roche\""
+    },
+    "e": {
+      "en": "Caster is <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a>. May end this State at any time by saying \"The earth release me\" x2"
+      }
   },
   "stoneskin": {
     "name": "Stoneskin",
@@ -2185,10 +2758,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"May nature protect thee from all forms of attack\" x3",
-    "if": "\"Que la nature te protège contre toute forme d'attaque\" x3",
+    "i": {
+      "en":"\"May nature protect thee from all forms of attack\" x3",
+      "fr": "\"Que la nature te protège contre toute forme d'attaque\" x3"
+    },
     "m": "White Strip",
-    "e": "Bearer gains 2 points of Magic armor affected as per <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a>"
+    "e": {
+      "en": "Bearer gains 2 points of Magic armor affected as per <a href=\"/spells/a#ancestralarmor\" data-ajax=\"false\">Ancestral Armor</a>"
+      }
   },
   "stun": {
     "name": "Stun",
@@ -2200,9 +2777,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "20'",
-    "i": "\"By the power of white light I stun thee\" x3",
-    "if": "\"La puissane lumineuse blanche t'étourdis\" x3",
-    "e": "Target player is <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a> for 30 seconds"
+    "i": {
+      "en":"\"By the power of white light I stun thee\" x3",
+      "fr": "\"La puissance lumineuse blanche t'étourdit\" x3"
+    },
+    "e": {
+      "en": "Target player is <a href=\"/states/#Stunned\" data-ajax=\"false\">Stunned</a> for 30 seconds"
+      }
   },
   "summondead": {
     "name": "Summon Dead",
@@ -2213,9 +2794,13 @@
     "t": "Verbal",
     "s": "Spirit",
     "r": "50",
-    "i": "\"I summon thy corpse\" x5",
-    "if": "\"Amène ton cadavre\" x5",
-    "e": "Target willing dead player must go directly to the caster. Upon reaching the caster, Summon Dead immediately ends. Wherever the player is when Summon Dead ends is treated as where the player died",
+    "i": {
+      "en":"\"I summon thy corpse\" x5",
+      "fr": "\"Amène ton cadavre\" x5"
+    },
+    "e": {
+      "en": "Target willing dead player must go directly to the caster. Upon reaching the caster, Summon Dead immediately ends. Wherever the player is when Summon Dead ends is treated as where the player died"
+      },
     "l": "May be used on a dead player who has not moved more than 5' from where they died or who is at their respawn"
   },
   "summoner": {
@@ -2226,7 +2811,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Each Enchantment purchased gives double the uses. Example: 1/Life Charge x3 becomes 2/life Charge x3, 2/ life becomes 4/life",
+    "e": {
+      "en": "Each Enchantment purchased gives double the uses. Example: 1/Life Charge x3 becomes 2/life Charge x3, 2/ life becomes 4/life"
+      },
     "l": "May not purchase Verbals with a range other than Touch or Self. May not purchase equipment beyond 2nd level"
   },
   "suppressaura": {
@@ -2239,9 +2826,13 @@
     "t": "Verbal",
     "s": "Command",
     "r": "50",
-    "i": "\"I command thee powerless\" x3",
-    "if": "\"Je t'ordonne d'être impuissant\" x3",
-    "e": "Target is <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds"
+    "i": {
+      "en":"\"I command thee powerless\" x3",
+      "fr": "\"Je t'ordonne d'être impuissant\" x3"
+    },
+    "e": {
+      "en": "Target is <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds"
+      }
   },
   "suppressionarrow": {
     "name": "Suppression Arrow",
@@ -2251,10 +2842,14 @@
     },
     "t": "Specialty Arrow",
     "s": "Sorcery",
-    "i": "\"Suppression Arrow\"",
-    "if": "\"Flèche baîllon\"",
+    "i": {
+      "en":"\"Suppression Arrow\"",
+      "fr": "\"Flèche baîllon\""
+    },
     "m": "<a href=\"/weapons/#Ammunition\" data-ajax=\"false\">Arrow</a> with purple head cover labeled ‘Suppression'",
-    "e": "A player struck by this arrow is <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds. Engulfing"
+    "e": {
+      "en": "A player struck by this arrow is <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 30 seconds. Engulfing"
+      }
   },
   "suppressionbolt": {
     "name": "Suppression Bolt",
@@ -2265,10 +2860,14 @@
     },
     "t": "Magic Ball",
     "s": "Subdual",
-    "i": "\"The strength of suppression is mine to evoke\" x3",
-    "if": "\"J'invoque la force arcane du bâillonement\" x3",
+    "i": {
+      "en":"\"The strength of suppression is mine to evoke\" x3",
+      "fr": "\"J'invoque la force arcane du bâillonement\" x3"
+    },
     "m": "Purple Magic Ball",
-    "e": "Target is <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 60 seconds. Engulfing"
+    "e": {
+      "en": "Target is <a href=\"/states/#Suppressed\" data-ajax=\"false\">Suppressed</a> for 60 seconds. Engulfing"
+      }
   },
   "swift": {
     "name": "Swift",
@@ -2282,9 +2881,13 @@
     },
     "t": "Meta-Magic",
     "s": "Neutral",
-    "i": "\"Swift\"",
-    "if": "\"Bref\"",
-    "e": "Magic and abilities require only a single iteration of the incantation. For multi-line Incantations use the last line",
+    "i": {
+      "en":"\"Swift\"",
+      "fr": "\"Bref\""
+    },
+    "e": {
+      "en": "Magic and abilities require only a single iteration of the incantation. For multi-line Incantations use the last line"
+      },
     "l": "May only be used on Magic and Abilities at a range of Ball, Touch, or Self. May not be used on the Charge incantation"
   },
   "teleport": {
@@ -2299,9 +2902,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Touch",
-    "i": "\"I travel through the aether\" x5",
-    "if": "\"Je me déplace dans l'éther\" x5",
-    "e": "Target willing player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> and moves directly to a chosen location chosen by the caster at the time of casting. This must be a fixed location (not relative to a player or to a moveable object). Upon arrival, they must immediately end the effect as per Insubstantial",
+    "i": {
+      "en":"\"I travel through the aether\" x5",
+      "fr": "\"Je me déplace dans l'éther\" x5"
+    },
+    "e": {
+      "en": "Target willing player becomes <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> and moves directly to a chosen location chosen by the caster at the time of casting. This must be a fixed location (not relative to a player or to a moveable object). Upon arrival, they must immediately end the effect as per Insubstantial"
+      },
     "n": "If the player's <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> state is removed before they have reached their destination, the effects of Teleport end. If Teleport is cast on self, the caster may end this Insubstantial state at any time by using the exit incantation for Insubstantial"
   },
   "terror": {
@@ -2314,9 +2921,13 @@
     "t": "Verbal",
     "s": "Death",
     "r": "20'",
-    "i": "\"Death makes thee terrified\" x3",
-    "if": "\"La mort te terrifie\" x3",
-    "e": "Target may not attack or cast Magical abilities at the caster or their carried equipment. Target must remain at least 50' away from the caster unless forced there by another ability. Lasts 30 seconds.",
+    "i": {
+      "en":"\"Death makes thee terrified\" x3",
+      "fr": "\"La mort te terrifie\" x3"
+    },
+    "e": {
+      "en": "Target may not attack or cast Magical abilities at the caster or their carried equipment. Target must remain at least 50' away from the caster unless forced there by another ability. Lasts 30 seconds."
+      },
     "n": "If the caster attacks the target, begins casting another Magical ability at the target or their carried equipment, or dies, this ability's effect is negated."
   },
   "throw": {
@@ -2328,9 +2939,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "20'",
-    "i": "\"My power throws thee\" x3",
-    "if": "\"Ma puissance te lance\" x3",
-    "e": "Target player is moved back 50' in a straight line away from the caster. Works on <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> players"
+    "i": {
+      "en":"\"My power throws thee\" x3",
+      "fr": "\"Ma puissance te lance\" x3"
+    },
+    "e": {
+      "en": "Target player is moved back 50' in a straight line away from the caster. Works on <a href=\"/states/#Stopped\" data-ajax=\"false\">Stopped</a> players"
+      }
   },
   "tracking": {
     "name": "Tracking",
@@ -2341,9 +2956,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "20'",
-    "i": "\"Tracking\" x3",
-    "if": "\"Pisté\" x3",
-    "e": "Target <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> player immediately has their Insubstantial effect ended"
+    "i": {
+      "en":"\"Tracking\" x3",
+      "fr": "\"Pisté\" x3"
+    },
+    "e": {
+      "en": "Target <a href=\"/states/#Insubstantial\" data-ajax=\"false\">Insubstantial</a> player immediately has their Insubstantial effect ended"
+      }
   },
   "trickery": {
     "name": "Trickery",
@@ -2354,7 +2973,9 @@
     "t": "Trait",
     "s": "Sorcery",
     "r": "Self",
-    "e": "Bearer may cast Blink, Shadow Step, and Teleport on themselves while they are already Insubstantial, provided that they were the cause of the initial Insubstantial State and entered it voluntarily. Doing so removes the original Insubstantial effect."
+    "e": {
+      "en": "Bearer may cast Blink, Shadow Step, and Teleport on themselves while they are already Insubstantial, provided that they were the cause of the initial Insubstantial State and entered it voluntarily. Doing so removes the original Insubstantial effect."
+      }
   },
   "trollblood": {
     "name": "Troll Blood",
@@ -2365,10 +2986,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Other",
-    "i": "\"The blood of the trolls sustains thee\" x3",
-    "if": "\"Le sang des trolls coule dans tes veines\" x3",
+    "i": {
+      "en":"\"The blood of the trolls sustains thee\" x3",
+      "fr": "\"Le sang des trolls coule dans tes veines\" x3"
+    },
     "m": "Three White Strips",
-    "e": "Enchanted player does not die as normal. When the player would otherwise die they instead ignore the triggering effect as though it had not occurred, remove a strip, and become <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 30 seconds. The bearer is treated as though they have the effects of <a href=\"/spells/r#regeneration\" data-ajax=\"false\">Regeneration</a> in addition to the above",
+    "e": {
+      "en": "Enchanted player does not die as normal. When the player would otherwise die they instead ignore the triggering effect as though it had not occurred, remove a strip, and become <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 30 seconds. The bearer is treated as though they have the effects of <a href=\"/spells/r#regeneration\" data-ajax=\"false\">Regeneration</a> in addition to the above"
+      },
     "n": "Troll Blood is removed when the last strip is removed"
   },
   "truegrit": {
@@ -2380,9 +3005,13 @@
     "t": "Verbal",
     "s": "Spirit",
     "r": "Self",
-    "i": "\"The wicked flee when I pursue\" immediately after dying",
-    "if": "\"Le félon fuit à mon approche\" immédiatement après la mort",
-    "e": "Player returns to life with their Wounds healed and is immediately <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 30 seconds",
+    "i": {
+      "en":"\"The wicked flee when I pursue\" immediately after dying",
+      "fr": "\"Le félon fuit à mon approche\" immédiatement après la mort"
+    },
+    "e": {
+      "en": "Player returns to life with their Wounds healed and is immediately <a href=\"/states/#Frozen\" data-ajax=\"false\">Frozen</a> for 30 seconds"
+      },
     "n": "Enchantments on the player are retained"
   },
   "undeadminion": {
@@ -2394,10 +3023,14 @@
     "t": "Enchantment",
     "s": "Death",
     "r": "Other",
-    "i": "\"By the power of my will, arise my minion!\" x5",
-    "if": "\"Par la force de ma volonté, lève toi et marche\" x5",
+    "i": {
+      "en":"\"By the power of my will, arise my minion!\" x5",
+      "fr": "\"Par la force de ma volonté, lève toi et marche\" x5"
+    },
     "m": "Yellow Strip",
-    "e": "Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> and cannot Respawn. While the bearer is enchanted, the caster gains Raise Dead (Unlimited) (m) which can only be cast with the bearer as the target, and ignores the requirement for the bearer to have not moved from where they died. For the duration of the Enchantment, the bearer may treat the caster as a base for the purposes of the effects which require the bearer to go to their base. This enchantment is Persistent, and remains active while the bearer is dead.",
+    "e": {
+      "en": "Bearer is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a> and cannot Respawn. While the bearer is enchanted, the caster gains Raise Dead (Unlimited) (m) which can only be cast with the bearer as the target, and ignores the requirement for the bearer to have not moved from where they died. For the duration of the Enchantment, the bearer may treat the caster as a base for the purposes of the effects which require the bearer to go to their base. This enchantment is Persistent, and remains active while the bearer is dead."
+      },
     "l": "The caster may not have more than three Undead Minion Enchantments."
   },
   "vampirism": {
@@ -2409,10 +3042,14 @@
     "t": "Enchantment",
     "s": "Death",
     "r": "Other",
-    "i": "\"Thy hunger can never be sated\" x3",
-    "if": "\"Ta faim sera désormais sans fond\" x3",
+    "i": {
+      "en":"\"Thy hunger can never be sated\" x3",
+      "fr": "\"Ta faim sera désormais sans fond\" x3"
+    },
     "m": "Yellow Strip and White Strip",
-    "e": "Player gains <a href=\"/spells/a#adrenaline\" data-ajax=\"false\">Adrenaline</a> unlimited (ex), is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Death, and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer's Adrenaline ability will work through their Cursed State"
+    "e": {
+      "en": "Player gains <a href=\"/spells/a#adrenaline\" data-ajax=\"false\">Adrenaline</a> unlimited (ex), is <a href=\"/spells/definitions#immune\" data-ajax=\"false\">Immune</a> to Death, and is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>. Bearer's Adrenaline ability will work through their Cursed State"
+      }
   },
   "voidtouched": {
     "name": "Void Touched",
@@ -2424,10 +3061,14 @@
     "t": "Enchantment",
     "s": "Sorcery",
     "r": "Other",
-    "i": "\"Embrace the old ones and surrender thyself\" x3",
-    "if": "\"Accepte les anciens et soumets-y toi\" x3",
+    "i": {
+      "en":"\"Embrace the old ones and surrender thyself\" x3",
+      "fr": "\"Accepte les anciens et soumets-y toi\" x3"
+    },
     "m": "Red Strip and White Strip",
-    "e": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer may use <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> 1/Refresh Charge x30 (ex), Steal Life Essence unlimited (ex), and is unaffected by Magical Abilities from the Sorcery, Spirit, and Death Schools. May still benefit from their own Steal Life Essence. Player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>",
+    "e": {
+      "en": "Bearer's wielded melee weapons are <a href=\"/states/#SpecialEffects\" data-ajax=\"false\">Armor Breaking</a>. Bearer may use <a href=\"/spells/s#shadowstep\" data-ajax=\"false\">Shadow Step</a> 1/Refresh Charge x30 (ex), Steal Life Essence unlimited (ex), and is unaffected by Magical Abilities from the Sorcery, Spirit, and Death Schools. May still benefit from their own Steal Life Essence. Player is <a href=\"/states/#Cursed\" data-ajax=\"false\">Cursed</a>"
+      },
     "n": "This effect does not interact with other Enchantments worn by the bearer"
   },
   "warder": {
@@ -2438,7 +3079,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "All abilities purchased in the Protection School give double the uses. Example: 1/Life Charge x3 becomes 2/Life Charge x3, 2/Life becomes 4/Life.",
+    "e": {
+      "en": "All abilities purchased in the Protection School give double the uses. Example: 1/Life Charge x3 becomes 2/Life Charge x3, 2/Life becomes 4/Life."
+      },
     "l": "Player may not purchase any magic from the Death, Command, or Subdual Schools"
   },
   "wardself": {
@@ -2450,10 +3093,14 @@
     "t": "Enchantment",
     "s": "Protection",
     "r": "Self",
-    "i": "\"The power of magic defends me\" x3",
-    "if": "\"La puissance magique me vient en aide\" x3",
+    "i": {
+      "en":"\"The power of magic defends me\" x3",
+      "fr": "\"La puissance magique me vient en aide\" x3"
+    },
     "m": "White Strip",
-    "e": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to all effects from the next source which would inflict a Wound, Death, or State. Does not trigger against effects cast by the player"
+    "e": {
+      "en": "<a href=\"/spells/definitions#resistant\" data-ajax=\"false\">Resistant</a> to all effects from the next source which would inflict a Wound, Death, or State. Does not trigger against effects cast by the player"
+      }
   },
   "warlock": {
     "name": "Warlock",
@@ -2463,7 +3110,9 @@
     },
     "t": "Archetype",
     "s": "Neutral",
-    "e": "Each Verbal purchased in the Death and Flame Schools gives double the uses. Example: 1/Life Charge x3 becomes 2/life Charge x3, 2/life becomes 4/life",
+    "e": {
+      "en": "Each Verbal purchased in the Death and Flame Schools gives double the uses. Example: 1/Life Charge x3 becomes 2/life Charge x3, 2/life becomes 4/life"
+      },
     "l": "Player may not purchase Verbals from any School other than the Death and Flame Schools"
   },
   "wordofmending": {
@@ -2476,9 +3125,13 @@
     "t": "Verbal",
     "s": "Sorcery",
     "r": "Touch",
-    "i": "\"Spedoinkle\"",
-    "if": "\"Spedoinkle\"",
-    "e": "All equipment carried by target player is repaired. All armor worn by target player is restored to full value",
+    "i": {
+      "en":"\"Spedoinkle\"",
+      "fr": "\"Spedoinkle\""
+    },
+    "e": {
+      "en": "All equipment carried by target player is repaired. All armor worn by target player is restored to full value"
+      },
     "l": "May not be cast within 20' of a living enemy"
   },
   "wounding": {
@@ -2490,9 +3143,13 @@
     "t": "Verbal",
     "s": "Death",
     "r": "20'",
-    "i": "\"Death strikes off thy [left/right] [arm/leg]\" x3",
-    "if": "\"La mort coupe [ta jambe/ton bras] [droite/gauche]\" x3",
-    "e": "Target hit location on target player is Wounded",
+    "i": {
+      "en":"\"Death strikes off thy [left/right] [arm/leg]\" x3",
+      "fr": "\"La mort coupe [ta jambe/ton bras] [droite/gauche]\" x3"
+    },
+    "e": {
+      "en": "Target hit location on target player is Wounded"
+      },
     "l": "Has no effect on players already Wounded",
     "n": "Wounding targets the player but affects the Hit Location. Visibility can be drawn to any part of the player, not just the desired Hit Location"
   }
